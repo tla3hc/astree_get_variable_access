@@ -73,6 +73,7 @@ class LogMonitor:
         logging.info("LogMonitor", "Init")
         self.astree_variable_access = VariableAcces()
         self.output_folder = output_folder
+        self.removed_folder = []
         if not os.path.exists(output_folder):
             os.makedirs(output_folder)
         pass
@@ -119,6 +120,9 @@ class LogMonitor:
                         shutil.move(current_folder, current_folder+'_')
                         # Rename folder back
                         shutil.move(current_folder+'_', current_folder)
+                        # If nothing is hold the log file, delete the folder
+                        shutil.rmtree(current_folder)
+                        self.removed_folder.append(current_folder)
                         continue
                     except:
                         log_folder = os.path.join(log_folder, folder)

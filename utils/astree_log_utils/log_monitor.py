@@ -4,6 +4,7 @@ import shutil
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from utils.astree_log_utils.variable_access import VariableAcces
+import time
 
 class LogFileHandler(FileSystemEventHandler):
     """Handler that triggers when log.txt is modified or created."""
@@ -108,7 +109,9 @@ class LogMonitor:
                     log_folder = os.path.join(log_folder, folder)
                     found_no += 1
                     continue
+        logging.info("VariableAcces", f"Log folder found: {log_folder}")
         log_file = os.path.join(log_folder,'persistent', 'log.txt')
+        logging.info("VariableAcces", f"Log file to search: {log_file}")
         if not os.path.isfile(log_file):
             logging.error("VariableAcces", "Log file does not exist")
             return None
@@ -140,10 +143,18 @@ class LogMonitor:
         variable_access_file = os.path.join(output_directory, 'variable_access.txt')
         if os.path.exists(variable_access_file):
             os.remove(variable_access_file)
-        log_file = self.__find_log_file()
-        if log_file is None:
-            logging.error("LogMonitor", "Log file not found")
-            return
+        # Find the log file to monitor for 30 seconds
+        # Get current time stamp
+        tic = time.time()
+        while True:
+            log_file = self.__find_log_file()
+            if log_file:
+                break
+            time.sleep(1)
+            toc = time.time()
+            if toc - tic > 30:
+                logging.error("LogMonitor", "Finding log file timeout")
+                return
         
         if not os.path.exists(output_directory):
             os.makedirs(output_directory)

@@ -175,10 +175,10 @@ class LogMonitor:
             # logging.info("LogMonitor", f"len(log_data_list): {len(log_data_list)}")
             # logging.info("LogMonitor", log_data_str)
             if "#data-dictionary:" not in log_data_str:
-                delay_time = 3
+                delay_time = 1
                 continue
             elif "#data-dictionary:" in log_data_str and ("/* Result summary */" not in log_data_str or '#shared memory usage:' not in log_data_str):
-                delay_time = 0.3
+                delay_time = 0.1
                 continue
             else:
                 variable_access_data = self.astree_variable_access.get_data_from_log(log_data_list)
@@ -215,7 +215,7 @@ class LogMonitor:
             log_file = self.__find_log_file()
             if log_file:
                 break
-            time.sleep(5)
+            time.sleep(3)
             toc = time.time()
             if toc - tic > 60:
                 logging.error("LogMonitor", "Finding log file timeout")

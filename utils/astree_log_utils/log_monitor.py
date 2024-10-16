@@ -81,20 +81,17 @@ class LogMonitor:
     def __find_log_file(self):
         """
         Searches for the log file in the user's temporary directory.
-        This method attempts to locate a log file within a specific folder structure
-        in the user's temporary directory. It performs the following steps:
-        1. Retrieves the current user's username.
-        2. Searches for folders starting with 'a3c-' in the user's temporary directory.
-        3. Attempts to delete these folders; if deletion fails, assumes the folder contains the log file.
-        4. Checks for the existence of 'log.txt' within the identified folder.
+        This method attempts to locate a log file within a folder that starts with 'a3c-' 
+        in the current user's temporary directory. It performs the following steps:
+        1. Retrieves the current Windows user.
+        2. Searches for folders starting with 'a3c-' in the user's temp directory.
+        3. Checks if the log file is currently open by another process.
+        4. If the log file is not open, it deletes the folder and adds it to the removed_folder list.
+        5. If exactly one log file is found, it returns the path to the log file.
+        6. Logs appropriate messages based on the outcome of the search.
         Returns:
-            str: The path to the log file if found and only one folder matches the criteria.
-            None: If the log file does not exist or if more than one matching folder is found.
-        Logs:
-            - Info: When starting the search for the log file.
-            - Error: If the log file does not exist.
-            - Info: If the log file is found.
-            - Error: If more than one matching folder is found.
+            str: The path to the log file if found and only one log file is present.
+            None: If no log file or more than one log file is found.
         """
         logging.info("VariableAcces", "Finding log file ...")
         # Get windows current user
@@ -105,6 +102,8 @@ class LogMonitor:
         found_no = 0
         for folder in os.listdir(log_folder):
             if 'a3c-' in folder:
+                if current_folder in self.removed_folder:
+                    continue
                 current_folder = os.path.join(log_folder, folder)
                 txt_log_file = os.path.join(current_folder,'persistent', 'log.txt')
                 log_file = os.path.join(current_folder,'persistent', 'astree.log')
@@ -148,6 +147,18 @@ class LogMonitor:
             return None
     
     def __monitor(self, log_file):
+        """
+        Monitors the specified log file for specific content and processes it accordingly.
+        This method continuously checks the log file for the presence of specific markers
+        ("#data-dictionary:", "/* Result summary */", and "#shared memory usage:"). If the
+        markers are found, it processes the log data and writes the variable access data to
+        an output file. If the log file is incomplete or the markers are not found, it waits
+        for a specified delay time before checking again.
+        Args:
+            log_file (str): The path to the log file to be monitored.
+        Raises:
+            FileNotFoundError: If the specified log file does not exist.
+        """
         delay_time = 0
         while True:
             if delay_time > 0:

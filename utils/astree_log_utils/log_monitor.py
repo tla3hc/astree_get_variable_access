@@ -102,9 +102,9 @@ class LogMonitor:
         found_no = 0
         for folder in os.listdir(log_folder):
             if 'a3c-' in folder:
+                current_folder = os.path.join(log_folder, folder)
                 if current_folder in self.removed_folder:
                     continue
-                current_folder = os.path.join(log_folder, folder)
                 txt_log_file = os.path.join(current_folder,'persistent', 'log.txt')
                 log_file = os.path.join(current_folder,'persistent', 'astree.log')
                 if not os.path.isfile(log_file):
@@ -162,7 +162,7 @@ class LogMonitor:
         delay_time = 0
         while True:
             if delay_time > 0:
-                logging.info("LogMonitor", f"Log file is incomplete, waiting for {delay_time} seconds ...")
+                # logging.info("LogMonitor", f"Log file is incomplete, waiting for {delay_time} seconds ...")
                 time.sleep(delay_time)
             # Check if the log file exists
             if not os.path.exists(log_file):
@@ -224,33 +224,8 @@ class LogMonitor:
         if not os.path.exists(output_directory):
             os.makedirs(output_directory)
             
-        # event_handler = LogFileHandler(log_file, output_directory)
-        # observer = Observer()
-        # observer.schedule(event_handler, path=os.path.dirname(log_file), recursive=False)
-        # observer.start()
-        
-        # try:
-        #     while True:
-        #         # Check if the variable access file exists
-        #         if os.path.exists(os.path.join(output_directory, 'variable_access.txt')):
-        #             logging.info("LogMonitor", "#"*100)
-        #             logging.info("LogMonitor", f"Variable access file created: {os.path.join(output_directory, 'variable_access.txt')}")
-        #             logging.info("LogMonitor", "#"*100)
-        #             # Stop the observer
-        #             observer.stop()
-        #             break
-        # except KeyboardInterrupt:
-        #     observer.stop()
-        # observer.join()
-        
-        # # Check if the variable access file is empty
-        # if os.path.exists(variable_access_file):
-        #     with open(variable_access_file, 'r', encoding='utf-8') as f:
-        #         data = f.read()
-        # if data == "":
-        #     logging.error("LogMonitor", "Variable access file is empty")
-        #     os.remove(variable_access_file)
-        
+        logging.info("LogMonitor", "Waiting for the variable access data ...")
         self.__monitor(log_file)
+        logging.info("LogMonitor", "Get variable access data successfully")
     
     

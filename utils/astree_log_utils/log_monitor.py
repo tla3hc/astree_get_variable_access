@@ -25,8 +25,9 @@ class LogFileHandler(FileSystemEventHandler):
     def on_modified(self, event):
         if event.src_path == self.log_file:
             # self.__get_variable_access()
+            logging.info("LogFileHandler", f"Log file: {self.log_file} modified")
             self.__read_log()
-    
+            
     def on_deleted(self, event):
         if event.src_path == self.log_file:
             logging.info("LogFileHandler", f"Log file: {self.log_file} deleted")
@@ -70,6 +71,7 @@ class LogMonitor:
     
     def __init__(self, output_folder) -> None:
         logging.info("LogMonitor", "Init")
+        self.astree_variable_access = VariableAcces()
         self.output_folder = output_folder
         if not os.path.exists(output_folder):
             os.makedirs(output_folder)
@@ -102,26 +104,74 @@ class LogMonitor:
         found_no = 0
         for folder in os.listdir(log_folder):
             if 'a3c-' in folder:
-                # Try to delete the folder, if could not delete, this is the log folder
-                try:
-                    shutil.rmtree(os.path.join(log_folder, folder))
-                except:
-                    log_folder = os.path.join(log_folder, folder)
-                    found_no += 1
+                current_folder = os.path.join(log_folder, folder)
+                txt_log_file = os.path.join(current_folder,'persistent', 'log.txt')
+                log_file = os.path.join(current_folder,'persistent', 'astree.log')
+                if not os.path.isfile(log_file):
                     continue
-        logging.info("VariableAcces", f"Log folder found: {log_folder}")
-        log_file = os.path.join(log_folder,'persistent', 'log.txt')
-        logging.info("VariableAcces", f"Log file to search: {log_file}")
-        if not os.path.isfile(log_file):
-            logging.error("VariableAcces", "Log file does not exist")
-            return None
-        else:
-            if found_no == 1:
-                logging.info("VariableAcces", f"Log file found: {log_file}")
-                return log_file
-            else:
-                logging.error("VariableAcces", f"ERROR: More than one log file found: {found_no}")
+                else:
+                    # Check if the log file is currently open by another process
+                    try:
+                        os.listdir(current_folder)
+                        with open(log_file, 'r', encoding='utf-8') as f:
+                            pass
+                        # Try to rename current folder
+                        shutil.move(current_folder, current_folder+'_')
+                        # Rename folder back
+                        shutil.move(current_folder+'_', current_folder)
+                        continue
+                    except:
+                        log_folder = os.path.join(log_folder, folder)
+                        found_no += 1
+                        continue
+                    
+                # Try to delete the folder, if could not delete, this is the log folder
+                # try:
+                #     shutil.rmtree(os.path.join(log_folder, folder))
+                # except:
+                #     log_folder = os.path.join(log_folder, folder)
+                #     found_no += 1
+                    # continue
+        if found_no == 1:
+            log_file = os.path.join(log_folder,'persistent', 'log.txt')
+            if not os.path.isfile(log_file):
+                logging.error("VariableAcces", "Log file does not exist")
                 return None
+            logging.info("VariableAcces", f"Log file found: {log_file}")
+            return log_file
+        else:
+            logging.error("VariableAcces", f"ERROR: Different than one log file found: {found_no} file(s)")
+            return None
+    
+    def __monitor(self, log_file):
+        delay_time = 0
+        while True:
+            if delay_time > 0:
+                logging.info("LogMonitor", f"Log file is incomplete, waiting for {delay_time} seconds ...")
+                time.sleep(delay_time)
+            # Check if the log file exists
+            if not os.path.exists(log_file):
+                raise FileNotFoundError(f"File not found: {log_file}")
+            # Read from the log file
+            with open(log_file, 'r', encoding='utf-8') as f:
+                log_data_list = f.readlines()
+                log_data_str = '\n'.join(log_data_list)
+            
+            # logging.info("LogMonitor", f"len(log_data_list): {len(log_data_list)}")
+            # logging.info("LogMonitor", log_data_str)
+            if "#data-dictionary:" not in log_data_str:
+                delay_time = 3
+                continue
+            elif "#data-dictionary:" in log_data_str and ("/* Result summary */" not in log_data_str or '#shared memory usage:' not in log_data_str):
+                delay_time = 0.3
+                continue
+            else:
+                variable_access_data = self.astree_variable_access.get_data_from_log(log_data_list)
+                if variable_access_data:
+                    variable_access_file = os.path.join(self.output_folder, 'variable_access.txt')
+                    with open(variable_access_file, 'w', encoding='utf-8') as f:
+                        f.write(variable_access_data)
+                    return
     
     def monitor(self):
         """
@@ -150,39 +200,42 @@ class LogMonitor:
             log_file = self.__find_log_file()
             if log_file:
                 break
-            time.sleep(1)
+            time.sleep(5)
             toc = time.time()
-            if toc - tic > 30:
+            if toc - tic > 60:
                 logging.error("LogMonitor", "Finding log file timeout")
                 return
         
         if not os.path.exists(output_directory):
             os.makedirs(output_directory)
-        event_handler = LogFileHandler(log_file, output_directory)
-        observer = Observer()
-        observer.schedule(event_handler, path=os.path.dirname(log_file), recursive=False)
-        observer.start()
+            
+        # event_handler = LogFileHandler(log_file, output_directory)
+        # observer = Observer()
+        # observer.schedule(event_handler, path=os.path.dirname(log_file), recursive=False)
+        # observer.start()
         
-        try:
-            while True:
-                # Check if the variable access file exists
-                if os.path.exists(os.path.join(output_directory, 'variable_access.txt')):
-                    logging.info("LogMonitor", "#"*100)
-                    logging.info("LogMonitor", f"Variable access file created: {os.path.join(output_directory, 'variable_access.txt')}")
-                    logging.info("LogMonitor", "#"*100)
-                    # Stop the observer
-                    observer.stop()
-                    break
-        except KeyboardInterrupt:
-            observer.stop()
-        observer.join()
+        # try:
+        #     while True:
+        #         # Check if the variable access file exists
+        #         if os.path.exists(os.path.join(output_directory, 'variable_access.txt')):
+        #             logging.info("LogMonitor", "#"*100)
+        #             logging.info("LogMonitor", f"Variable access file created: {os.path.join(output_directory, 'variable_access.txt')}")
+        #             logging.info("LogMonitor", "#"*100)
+        #             # Stop the observer
+        #             observer.stop()
+        #             break
+        # except KeyboardInterrupt:
+        #     observer.stop()
+        # observer.join()
         
-        # Check if the variable access file is empty
-        if os.path.exists(variable_access_file):
-            with open(variable_access_file, 'r', encoding='utf-8') as f:
-                data = f.read()
-        if data == "":
-            logging.error("LogMonitor", "Variable access file is empty")
-            os.remove(variable_access_file)
+        # # Check if the variable access file is empty
+        # if os.path.exists(variable_access_file):
+        #     with open(variable_access_file, 'r', encoding='utf-8') as f:
+        #         data = f.read()
+        # if data == "":
+        #     logging.error("LogMonitor", "Variable access file is empty")
+        #     os.remove(variable_access_file)
+        
+        self.__monitor(log_file)
     
     

@@ -33,10 +33,8 @@ logging.error = format_log(logging.error)
  
 class Logger:
    
-    m_class_name = "Logger"
-    m_log_folder = "./log"
-   
-    def __init__(self):
+    def __init__(self, log_folder="./log"):
+        self.m_log_folder = log_folder
         today = datetime.today().strftime('%Y_%m_%d')
         FORMAT = '%(message)s'
         # Check and create log folder

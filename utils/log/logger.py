@@ -54,3 +54,6 @@ class Logger:
        
     def error(self, data):
         logging.error("Logger", data)
+        
+    def debug(self, data):
+        logging.debug("Logger", data)

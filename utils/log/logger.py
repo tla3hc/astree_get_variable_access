@@ -29,6 +29,7 @@ def format_log(func):
 logging.info = format_log(logging.info)
 logging.warning = format_log(logging.warning)
 logging.error = format_log(logging.error)
+logging.debug = format_log(logging.debug)
  
  
 class Logger:

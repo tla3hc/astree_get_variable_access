@@ -47,3 +47,143 @@ class VariableAcces:
                 data_range.append(line)
         return None
     
+    def validate_variable_data(self, log_data: str) -> bool:
+        """
+        Validates the format of the given log data string.
+
+        The log data string is expected to follow a specific format, for example:
+        "[23:44:04] #  ADC_AXF_p_EnaPlausBlndLgtF_b of type const boolean in [0, 1]"
+
+        This method checks if the log data contains the substrings "of type", "in", and "#".
+
+        Args:
+            log_data (str): The log data string to validate.
+
+        Returns:
+            bool: True if the log data string is in the expected format, False otherwise.
+        """
+        # log_data example:
+        # "[23:44:04] #  ADC_AXF_p_EnaPlausBlndLgtF_b of type const boolean in [0, 1]""
+        # strip the log_data
+        log_data = log_data.strip()
+        if "of type" in log_data and "in" in log_data and "#" in log_data:
+            return True
+        return False
+    
+    def get_variable_name(self, log_data: str) -> str:
+        """
+        Extracts the variable name from a given log data string.
+
+        Args:
+            log_data (str): The log data string containing the variable information.
+
+        Returns:
+            str: The extracted variable name.
+        """
+        variable_name = log_data.split("of type")[0].strip()
+        variable_name = variable_name.split("#")[1].strip()
+        return variable_name
+    
+    def get_variable_range(self, log_data: str) -> str:
+        """
+        Extracts and returns the variable range from the provided log data.
+
+        Args:
+            log_data (str): The log data string containing the variable range.
+
+        Returns:
+            str: The extracted variable range.
+        """
+        variable_range = log_data.split("in")[1].strip()
+        return variable_range
+    
+    def get_variable_type(self, log_data: str) -> str:
+        """
+        Extracts and returns the variable type from the given log data string.
+
+        Args:
+            log_data (str): The log data string containing the variable type information.
+
+        Returns:
+            str: The extracted variable type.
+        """
+        variable_type = log_data.split("of type")[1].split("in")[0].strip()
+        return variable_type
+        
+    def get_variable_data(self, log_data: str) -> list:
+        """
+        Extracts variable data from the provided log data.
+
+        Args:
+            log_data (str): The log data containing variable information.
+
+        Returns:
+            list: A list containing the variable name, type, and range if the log data is valid.
+                  Returns None if the log data is invalid.
+        """
+        # validate the log data
+        if not self.validate_variable_data(log_data):
+            return None
+        # get the variable name
+        variable_name = self.get_variable_name(log_data)
+        # get the variable type
+        variable_type = self.get_variable_type(log_data)
+        # get the variable range
+        variable_range = self.get_variable_range(log_data)
+        return [variable_name, variable_type, variable_range]
+    
+    def get_variable_access_obj(self, log_data_list: list) -> dict:
+        """
+        Extracts variable data from a given log data list.
+
+        Args:
+            log_data (list): A list of strings containing log data.
+
+        Returns:
+            dict: A dictionary containing the variable name as the key and the variable data as the value.
+        """
+        logging.info("VariableAcces", "Getting variable access object ...")
+        variable_access_obj = {}
+        for log_data in log_data_list:
+            variable_data = self.get_variable_data(log_data)
+            if variable_data:
+                variable_name = variable_data[0]
+                variable_type = variable_data[1]
+                variable_range = variable_data[2]
+                if variable_name in variable_access_obj:
+                    continue
+                new_data = {}
+                new_data["type"] = variable_type
+                new_data["range"] = variable_range
+                variable_access_obj[variable_name] = new_data
+        return variable_access_obj
+    
+    def write_variable_access_to_csv(self, variable_access_obj: dict, output_file: str) -> None:
+        """
+        Writes the variable access object to a CSV file.
+
+        Args:
+            variable_access_obj (dict): A dictionary containing variable data.
+            output_file (str): The path to the output CSV file.
+        """
+        logging.info("VariableAcces", "Writing variable access to CSV ...")
+        if os.path.exists(output_file):
+            os.remove(output_file)
+        with open(output_file, "w") as csv_file:
+            csv_file.write("Variable Name,Variable Type,Variable Range\n")
+            for variable_name, variable_data in variable_access_obj.items():
+                variable_type = variable_data["type"]
+                variable_range = variable_data["range"]
+                csv_file.write(f"{variable_name},{variable_type},{variable_range}\n")
+    
+    def save_variable_access_to_csv(self, log_data_list: list, output_file: str) -> None:
+        """
+        Converts a log file containing variable data to a CSV file.
+
+        Args:
+            log_data (list): A list of strings containing log data.
+            output_file (str): The path to the output CSV file.
+        """
+        logging.info("VariableAcces", "Converting variable data to CSV ...")
+        variable_access_obj = self.get_variable_access_obj(log_data_list)
+        self.write_variable_access_to_csv(variable_access_obj, output_file)

@@ -1,0 +1,150 @@
+2024-12-16 17:37:32:             Logger             : Init[0m
+2024-12-16 17:37:32:          LinkVar2Sim           : Init[0m
+2024-12-16 17:37:32:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:37:32:          LinkVar2Sim           : Linking completed[0m
+2024-12-16 17:37:59:             Logger             : Init[0m
+2024-12-16 17:37:59:          LinkVar2Sim           : Init[0m
+2024-12-16 17:37:59:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:37:59:          LinkVar2Sim           : Used variables: [][0m
+2024-12-16 17:37:59:          LinkVar2Sim           : Linking completed[0m
+2024-12-16 17:38:13:             Logger             : Init[0m
+2024-12-16 17:38:13:          LinkVar2Sim           : Init[0m
+2024-12-16 17:38:13:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:38:13:          LinkVar2Sim           : Used variables: ['USSDB_version', 'USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure'][0m
+2024-12-16 17:39:49:             Logger             : Init[0m
+2024-12-16 17:39:49:          LinkVar2Sim           : Init[0m
+2024-12-16 17:39:49:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:39:49:          LinkVar2Sim           : Used variables: ['USSDB_version', 'USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:40:53:             Logger             : Init[0m
+2024-12-16 17:40:53:          LinkVar2Sim           : Init[0m
+2024-12-16 17:40:53:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:40:54:          LinkVar2Sim           : Used variables: ['USSDB_version', 'USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:41:12:             Logger             : Init[0m
+2024-12-16 17:41:12:          LinkVar2Sim           : Init[0m
+2024-12-16 17:41:12:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:41:12:          LinkVar2Sim           : Used variables: ['USSDB_version', 'USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:41:12:          LinkVar2Sim           : Linking completed[0m
+2024-12-16 17:42:21:             Logger             : Init[0m
+2024-12-16 17:42:21:          LinkVar2Sim           : Init[0m
+2024-12-16 17:42:21:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:42:22:          LinkVar2Sim           : Used variables: ['USSDB_version', 'USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:43:32:             Logger             : Init[0m
+2024-12-16 17:43:32:          LinkVar2Sim           : Init[0m
+2024-12-16 17:43:32:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:43:32:          LinkVar2Sim           : Used variables: ['USSDB_version', 'USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:44:23:             Logger             : Init[0m
+2024-12-16 17:44:23:          LinkVar2Sim           : Init[0m
+2024-12-16 17:44:23:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:44:23:          LinkVar2Sim           : Used variables: ['USSDB_version', 'USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:47:36:             Logger             : Init[0m
+2024-12-16 17:47:36:          LinkVar2Sim           : Init[0m
+2024-12-16 17:47:36:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:47:37:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:48:33:             Logger             : Init[0m
+2024-12-16 17:48:33:          LinkVar2Sim           : Init[0m
+2024-12-16 17:48:33:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:48:34:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:51:20:             Logger             : Init[0m
+2024-12-16 17:51:20:          LinkVar2Sim           : Init[0m
+2024-12-16 17:51:20:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:51:20:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:52:30:             Logger             : Init[0m
+2024-12-16 17:52:30:          LinkVar2Sim           : Init[0m
+2024-12-16 17:52:30:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:52:31:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:53:19:             Logger             : Init[0m
+2024-12-16 17:53:19:          LinkVar2Sim           : Init[0m
+2024-12-16 17:53:19:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:53:19:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:54:41:             Logger             : Init[0m
+2024-12-16 17:54:41:          LinkVar2Sim           : Init[0m
+2024-12-16 17:54:41:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:54:41:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:56:25:             Logger             : Init[0m
+2024-12-16 17:56:25:          LinkVar2Sim           : Init[0m
+2024-12-16 17:56:25:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:56:26:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:56:41:          LinkVar2Sim           : Linking completed[0m
+2024-12-16 17:56:50:             Logger             : Init[0m
+2024-12-16 17:56:50:          LinkVar2Sim           : Init[0m
+2024-12-16 17:56:50:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:56:50:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:56:50:          LinkVar2Sim           : Linking completed[0m
+2024-12-16 17:57:17:             Logger             : Init[0m
+2024-12-16 17:57:17:          LinkVar2Sim           : Init[0m
+2024-12-16 17:57:17:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:57:17:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:57:17:          LinkVar2Sim           : Linking completed[0m
+2024-12-16 17:58:03:             Logger             : Init[0m
+2024-12-16 17:58:03:          LinkVar2Sim           : Init[0m
+2024-12-16 17:58:03:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:58:03:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:58:03:          LinkVar2Sim           : Linking completed[0m
+2024-12-16 17:58:43:             Logger             : Init[0m
+2024-12-16 17:58:43:          LinkVar2Sim           : Init[0m
+2024-12-16 17:58:43:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:58:44:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:58:44:          LinkVar2Sim           : Linking completed[0m
+2024-12-16 17:58:58:             Logger             : Init[0m
+2024-12-16 17:58:58:          LinkVar2Sim           : Init[0m
+2024-12-16 17:58:58:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:58:58:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:58:58:          LinkVar2Sim           : Linking completed[0m
+2024-12-16 17:59:58:             Logger             : Init[0m
+2024-12-16 17:59:58:          LinkVar2Sim           : Init[0m
+2024-12-16 17:59:58:          LinkVar2Sim           : Linking[0m
+2024-12-16 17:59:58:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 17:59:58:          LinkVar2Sim           : Linking completed[0m
+2024-12-16 18:02:56:             Logger             : Init[0m
+2024-12-16 18:02:56:          LinkVar2Sim           : Init[0m
+2024-12-16 18:03:07:             Logger             : Init[0m
+2024-12-16 18:03:07:          LinkVar2Sim           : Init[0m
+2024-12-16 18:03:07:          LinkVar2Sim           : Linking[0m
+2024-12-16 18:03:07:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 18:03:08:          LinkVar2Sim           : Linking completed[0m
+2024-12-16 18:03:17:             Logger             : Init[0m
+2024-12-16 18:03:17:          LinkVar2Sim           : Init[0m
+2024-12-16 18:03:17:          LinkVar2Sim           : Linking[0m
+2024-12-16 18:03:17:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 18:03:17:          LinkVar2Sim           : Linking completed[0m
+2024-12-16 18:03:17:          LinkVar2Sim           : Saved linked variables to CSV file[0m
+2024-12-16 18:03:17:          LinkVar2Sim           : Saved linked variables[0m
+2024-12-16 18:04:39:             Logger             : Init[0m
+2024-12-16 18:04:39:          LinkVar2Sim           : Init[0m
+2024-12-16 18:04:39:          LinkVar2Sim           : Linking[0m
+2024-12-16 18:04:39:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 18:04:39:          LinkVar2Sim           : Linking completed[0m
+2024-12-16 18:04:39:          LinkVar2Sim           : Saved linked variables to CSV file[0m
+2024-12-16 18:04:39:          LinkVar2Sim           : Saved linked variables[0m
+2024-12-16 18:05:49:             Logger             : Init[0m
+2024-12-16 18:05:49:          LinkVar2Sim           : Init[0m
+2024-12-16 18:05:49:          LinkVar2Sim           : Linking[0m
+2024-12-16 18:05:49:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 18:05:49:          LinkVar2Sim           : Linking completed[0m
+2024-12-16 18:05:49:          LinkVar2Sim           : Saved linked variables to CSV file[0m
+2024-12-16 18:05:49:          LinkVar2Sim           : Saved linked variables[0m
+2024-12-16 18:06:04:             Logger             : Init[0m
+2024-12-16 18:06:04:          LinkVar2Sim           : Init[0m
+2024-12-16 18:06:04:          LinkVar2Sim           : Linking[0m
+2024-12-16 18:06:04:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 18:06:04:          LinkVar2Sim           : Linking completed[0m
+2024-12-16 18:06:04:          LinkVar2Sim           : Saved linked variables to CSV file[0m
+2024-12-16 18:06:04:          LinkVar2Sim           : Saved linked variables[0m
+2024-12-16 18:06:37:             Logger             : Init[0m
+2024-12-16 18:06:37:          LinkVar2Sim           : Init[0m
+2024-12-16 18:06:37:          LinkVar2Sim           : Linking[0m
+2024-12-16 18:06:38:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 18:06:38:          LinkVar2Sim           : Linking completed[0m
+2024-12-16 18:06:38:          LinkVar2Sim           : Saved linked variables to CSV file[0m
+2024-12-16 18:06:38:          LinkVar2Sim           : Saved linked variables[0m
+2024-12-16 18:07:49:             Logger             : Init[0m
+2024-12-16 18:07:49:          LinkVar2Sim           : Init[0m
+2024-12-16 18:07:49:          LinkVar2Sim           : Linking[0m
+2024-12-16 18:07:49:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 18:08:01:             Logger             : Init[0m
+2024-12-16 18:08:01:          LinkVar2Sim           : Init[0m
+2024-12-16 18:08:01:          LinkVar2Sim           : Linking[0m
+2024-12-16 18:08:02:          LinkVar2Sim           : Used variables: ['USS_INIT_s_StPrmPlaus_measure', 'USS_INIT_s_FlgCalRomVld_measure', 'USS_INIT_s_FlgCodSwtVld_measure', 'USS_INIT_s_FlgDatSetVld_measure', 'IF_SUSS60_Out1_kb', 'X_SUSS46_Unit_Delay', 'X_SUSS63_Trigger_TriggerIn', 'X_SUSS64_Trigger_TriggerIn', 'X_SUSS65_Trigger_TriggerIn', 'X_SUSS68_Trigger_TriggerIn', 'X_SUSS69_Trigger_TriggerIn', 'X_SUSS70_Trigger_TriggerIn', 'X_SUSS71_Trigger_TriggerIn', 'X_SUSS73_Trigger_TriggerIn', 'X_SUSS74_Trigger_TriggerIn', 'X_SUSS75_Trigger_TriggerIn', 'X_SUSS76_Trigger_TriggerIn', 'X_SUSS77_Trigger_TriggerIn', 'X_SUSS80_Trigger_TriggerIn', 'X_SUSS82_Trigger_TriggerIn', 'X_SUSS83_Trigger_TriggerIn'][0m
+2024-12-16 18:08:02:          LinkVar2Sim           : Linking completed[0m
+2024-12-16 18:08:02:          LinkVar2Sim           : Saved linked variables to CSV file[0m
+2024-12-16 18:08:02:          LinkVar2Sim           : Saved linked variables[0m

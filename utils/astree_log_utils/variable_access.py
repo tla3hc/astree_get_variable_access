@@ -132,6 +132,64 @@ class VariableAcces:
         variable_range = self.get_variable_range(log_data)
         return [variable_name, variable_type, variable_range]
     
+    def is_float(self, value: str) -> bool:
+        """_summary_
+        Check if given string can be converted to a float.
+        Args:
+            value (str): _description_
+
+        Returns:
+            bool: _description_
+        """
+        try:
+            if not value:
+                return False
+            # Lowercase the value
+            value = value.lower()
+            if "nan" in value or "inf" in value:
+                return False
+            float(value)
+            return True
+        except ValueError:
+            return False
+    
+    def get_range_values(self, variable_range: str) -> str:
+        """
+        Extracts the minimum and maximum values from the given variable range.
+
+        Args:
+            variable_range (str): The variable range string.
+
+        Returns:
+            list: A str containing the minimum and maximum values.
+        """
+        try:
+            # Validate range
+            if not variable_range:
+                return None
+            # Range in the format [0, 1]
+            if "[" in variable_range and "]" in variable_range:
+                # Get lower and upper ranges
+                upper_range = variable_range.split(",")[1].replace("]", "").strip()
+                lower_range = variable_range.split(",")[0].replace("[", "").strip()
+                # Check if the values are floats
+                if self.is_float(upper_range) and self.is_float(lower_range):
+                    return f'{float(lower_range)}..{float(upper_range)}'
+                else:
+                    return None
+            # Variable range is in "{40} /\ != 0"
+            elif "{" in variable_range and "}" in variable_range:
+                # The value between the curly braces is the range and should be a float
+                range_value = variable_range.split("{")[1].split("}")[0].strip()
+                if self.is_float(range_value):
+                    return f'{float(range_value)}..{float(range_value)}'
+                else:
+                    return None
+            return None
+        except Exception as ex:
+            logging.debug("VariableAcces", f"Error: {ex}")
+            return None
+        
     def get_variable_access_obj(self, log_data_list: list) -> dict:
         """
         Extracts variable data from a given log data list.
@@ -150,7 +208,12 @@ class VariableAcces:
                 variable_name = variable_data[0]
                 variable_type = variable_data[1]
                 variable_range = variable_data[2]
+                # check if the variable name already exists in the variable access object
                 if variable_name in variable_access_obj:
+                    continue
+                # Validate the variable range and get the min and max values
+                variable_range = self.get_range_values(variable_range)
+                if not variable_range:
                     continue
                 new_data = {}
                 new_data["type"] = variable_type

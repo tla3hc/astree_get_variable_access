@@ -186,9 +186,9 @@ class LogMonitor:
                     variable_access_txt_file = os.path.join(self.output_folder, 'variable_access.txt')
                     with open(variable_access_txt_file, 'w', encoding='utf-8') as f:
                         f.write(variable_access_data)
+                    variable_access_csv_file = os.path.join(self.output_folder, 'variable_access.csv')
+                    self.astree_variable_access.save_variable_access_to_csv(log_data_list, variable_access_csv_file)
                     return
-                variable_access_csv_file = os.path.join(self.output_folder, 'variable_access.csv')
-                self.astree_variable_access.save_variable_access_to_csv(log_data_list, variable_access_csv_file)
     
     def monitor(self):
         """

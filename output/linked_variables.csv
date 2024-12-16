@@ -1,0 +1,21 @@
+USS_INIT_s_StPrmPlaus_measure,boolean,0.0..1.0,/* Logical: FrameUSS/USSDB/USSDB_Runnable_Init/USSDB_INIT/Validity_Checks/DestSt_Activation/and
+USS_INIT_s_FlgCalRomVld_measure,boolean,0.0..1.0,/* Relational: FrameUSS/USSDB/USSDB_Runnable_Init/USSDB_INIT/CalRom_Check/Relational Operator2
+USS_INIT_s_FlgCodSwtVld_measure,boolean,0.0..1.0,/* Relational: FrameUSS/USSDB/USSDB_Runnable_Init/USSDB_INIT/Validity_Checks/CodSwt3_Check/Relational Operator
+USS_INIT_s_FlgDatSetVld_measure,boolean,0.0..1.0,/* Logical: FrameUSS/USSDB/USSDB_Runnable_Init/USSDB_INIT/Validity_Checks/SwDatSet1_Check/Logical Operator1
+IF_SUSS60_Out1_kb,ObjectDetection_AT_FunctionStatus,0.0..255.0,/* Outport: FrameUSS/USSDB/USSDB_Runnable_20ms/Original_Runnable/DRP_HoldEvent/Triggered
+X_SUSS46_Unit_Delay,boolean,0.0..1.0,/* Unit delay: FrameUSS/USSDB/USSDB_Runnable_20ms/StoppedCase_Subsystem/Unit Delay */
+X_SUSS63_Trigger_TriggerIn,boolean,0.0..1.0,/* FrameUSS/USSDB/USSDB_Runnable_20ms/Original_Runnable/SET_DTC/SSCP_CP_USSDB_DTCACAErr_SetE
+X_SUSS64_Trigger_TriggerIn,boolean,0.0..1.0,/* FrameUSS/USSDB/USSDB_Runnable_20ms/Original_Runnable/SET_DTC/SSCP_CP_USSDB_DTCACCErr_SetE
+X_SUSS65_Trigger_TriggerIn,boolean,0.0..1.0,/* FrameUSS/USSDB/USSDB_Runnable_20ms/Original_Runnable/SET_DTC/SSCP_CP_USSDB_DTCAPIErr_SetE
+X_SUSS68_Trigger_TriggerIn,boolean,0.0..1.0,/* FrameUSS/USSDB/USSDB_Runnable_20ms/Original_Runnable/SET_DTC/SSCP_CP_USSDB_DTCDrvAcvErr_S
+X_SUSS69_Trigger_TriggerIn,boolean,0.0..1.0,/* FrameUSS/USSDB/USSDB_Runnable_20ms/Original_Runnable/SET_DTC/SSCP_CP_USSDB_DTCDrvDrgErr_S
+X_SUSS70_Trigger_TriggerIn,boolean,0.0..1.0,/* FrameUSS/USSDB/USSDB_Runnable_20ms/Original_Runnable/SET_DTC/SSCP_CP_USSDB_DTCDrvStylErr_
+X_SUSS71_Trigger_TriggerIn,boolean,0.0..1.0,/* FrameUSS/USSDB/USSDB_Runnable_20ms/Original_Runnable/SET_DTC/SSCP_CP_USSDB_DTCEPSErr_SetE
+X_SUSS73_Trigger_TriggerIn,boolean,0.0..1.0,/* FrameUSS/USSDB/USSDB_Runnable_20ms/Original_Runnable/SET_DTC/SSCP_CP_USSDB_DTCErr_SetEven
+X_SUSS74_Trigger_TriggerIn,boolean,0.0..1.0,/* FrameUSS/USSDB/USSDB_Runnable_20ms/Original_Runnable/SET_DTC/SSCP_CP_USSDB_DTCEscBtnErr_S
+X_SUSS75_Trigger_TriggerIn,boolean,0.0..1.0,/* FrameUSS/USSDB/USSDB_Runnable_20ms/Original_Runnable/SET_DTC/SSCP_CP_USSDB_DTCEscErr_SetE
+X_SUSS76_Trigger_TriggerIn,boolean,0.0..1.0,/* FrameUSS/USSDB/USSDB_Runnable_20ms/Original_Runnable/SET_DTC/SSCP_CP_USSDB_DTCKLRErr_SetE
+X_SUSS77_Trigger_TriggerIn,boolean,0.0..1.0,/* FrameUSS/USSDB/USSDB_Runnable_20ms/Original_Runnable/SET_DTC/SSCP_CP_USSDB_DTCLDAErr_SetE
+X_SUSS80_Trigger_TriggerIn,boolean,0.0..1.0,/* FrameUSS/USSDB/USSDB_Runnable_20ms/Original_Runnable/SET_DTC/SSCP_CP_USSDB_DTCMFLErr_SetE
+X_SUSS82_Trigger_TriggerIn,boolean,0.0..1.0,/* FrameUSS/USSDB/USSDB_Runnable_20ms/Original_Runnable/SET_DTC/SSCP_CP_USSDB_DTCVDSOErr_Set
+X_SUSS83_Trigger_TriggerIn,boolean,0.0..1.0,/* FrameUSS/USSDB/USSDB_Runnable_20ms/Original_Runnable/SET_DTC/SSCP_CP_USSDB_DTCVMMPErr_Set

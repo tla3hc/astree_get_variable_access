@@ -1,0 +1,828 @@
+Variable Name,Variable Type,Variable Range
+__astree_default_fenv,fenv_t.__fexcept,0.0..65535.0
+Rte_USSDB_RP_CodSwt_CodSwt_Critical_status,Std_ReturnType,0.0..0.0
+Rte_USSDB_RP_CodSwt_CodSwt_Critical_Version_status,Std_ReturnType,0.0..0.0
+Rte_USSDB_Diag_DTCFlgRstrt_20ms_Diag_DTCFlgRstrt_status,Std_ReturnType,0.0..0.0
+Rte_USSDB_RP_USSDB_ObjectDetectionEvents_objects_status,Std_ReturnType,0.0..0.0
+Rte_Irv_USSDB_IRV_DataOut_USSDB_DRDIdxCmft,E3BaseTypeS32.Clas,0.0..255.0
+Rte_Buffer_0,E3BaseTypeS32.Clas,0.0..255.0
+Rte_Irv_USSDB_IRV_DataOut_USSDB_DRDIdxDyn,E3BaseTypeS32.Clas,0.0..255.0
+Rte_Buffer_1,E3BaseTypeS32.Clas,0.0..255.0
+Rte_Irv_USSDB_IRV_DataOut_USSDB_DRDIdxEff,E3BaseTypeS32.Clas,0.0..255.0
+Rte_Buffer_2,E3BaseTypeS32.Clas,0.0..255.0
+Rte_Irv_USSDB_IRV_DataOut_USSDB_DRDLatHODTi,E3BaseTypeU16.Clas,0.0..255.0
+Rte_Buffer_4,E3BaseTypeU16.Clas,0.0..255.0
+Rte_Irv_USSDB_IRV_DataOut_USSDB_DRDLatNotAcvTi,E3BaseTypeU16.Clas,0.0..255.0
+Rte_Buffer_5,E3BaseTypeU16.Clas,0.0..255.0
+Rte_USSDB_ACA_Obj_01_axAbs_v_ACA_Obj_01_axAbs_v,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_ACA_Status_Laengs_ACA_Status_Laengs,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_ACC_LgtCtl_StAcv_ACC_LgtCtl_StAcv,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_ACA_Obj_01_dx_v_ACA_Obj_01_dx_v,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_ACA_Status_Quer_ACA_Status_Quer,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_ACA_Obj_01_dy_v_ACA_Obj_01_dy_v,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_ACA_StgStiCtl_AgOffStgWhlDmd_ACA_StgStiCtl_AgOffStgWhlDmd,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_ACA_Obj_01_vx_v_ACA_Obj_01_vx_v,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_EPS_StDrvAcv_EPS_StDrvAcv,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_DBR_IdcDrvBrk_DBR_IdcDrvBrk,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_DBR_IdcDrvBrkQlfr_DBR_IdcDrvBrkQlfr,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_DPM_StTarDrvPosn_DPM_StTarDrvPosn,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_EPS_RackPosnSpd_EPS_RackPosnSpd,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_EPS_StRackPosn_EPS_StRackPosn,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_EPS_DynLimQFK_EPS_DynLimQFK,E3BaseTypeBoolean.Clas,40.0..40.0
+Rte_USSDB_ACA_relevanter_Fehler_ACA_relevanter_Fehler,E3BaseTypeBoolean.Clas,40.0..40.0
+Rte_USSDB_DrvDrg_IdxRgnLvl_DrvDrg_IdxRgnLvl,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_EPS_RackPosn_EPS_RackPosn,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_EPS_CtlValQFK_EPS_CtlValQFK,E3BaseTypeS8.Clas,40.0..40.0
+Rte_USSDB_EPS_StStgTq_EPS_StStgTq,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_EPS_StgTq_EPS_StgTq,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_EPS_StghtFwdCor_EPS_StghtFwdCor,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_FPM_Set_ACC_DistanceControl_FPM_Set_ACC_DistanceControl,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_FPM_Set_PreSel_LIM_GRA_ACC_ACA_FPM_Set_PreSel_LIM_GRA_ACC_ACA,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_KLR_Fehler_KLR_Fehler,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_KLR_Touchauswertung_KLR_Touchauswertung,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_KST_KL_15_KST_KL_15,E3BaseTypeBoolean.Clas,40.0..40.0
+Rte_USSDB_KST_Kl_S_KST_Kl_S,E3BaseTypeBoolean.Clas,40.0..40.0
+Rte_USSDB_LDA_Header_LDA_FC1_Status,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN00_LDA_FC1_LIN00HorEndX,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN00_LDA_FC1_LIN00Safe,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN00_LDA_FC1_LIN00HorCurvCh,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN00_LDA_FC1_LIN00HorCurv,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN00_LDA_FC1_LIN00Type,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN00_LDA_FC1_LIN00HorRelYawAngle,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN00_LDA_FC1_LIN00ID,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN00_LDA_FC1_LIN00HorDistY,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN00_LDA_FC1_LIN00CenterPathConf,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN00_LDA_FC1_LIN00StatusInfo,E3BaseTypeU16.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN00_LDA_FC1_LIN00HorStartX,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN01_LDA_FC1_LIN01HorCurv,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN01_LDA_FC1_LIN01HorEndXMeasured,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN01_LDA_FC1_LIN01HorCurvCh,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN01_LDA_FC1_LIN01HorGapLength,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN01_LDA_FC1_LIN01HorWidth,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN01_LDA_FC1_LIN01HorStartX,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN01_LDA_FC1_LIN01HorEndX,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN01_LDA_FC1_LIN01HorDashLength,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN01_LDA_FC1_LIN01Color,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN01_LDA_FC1_LIN01Safe,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN01_LDA_FC1_LIN01HorDistY,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN01_LDA_FC1_LIN01ID,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN01_LDA_FC1_LIN01Type,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN01_LDA_FC1_LIN01StatusInfo,E3BaseTypeU16.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN01_LDA_FC1_LIN01HorRelYawAngle,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN02_LDA_FC1_LIN02HorDashLength,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN02_LDA_FC1_LIN02HorCurvCh,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN02_LDA_FC1_LIN02HorEndX,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN02_LDA_FC1_LIN02Color,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN02_LDA_FC1_LIN02HorGapLength,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN02_LDA_FC1_LIN02ID,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN02_LDA_FC1_LIN02HorWidth,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN02_LDA_FC1_LIN02HorEndXMeasured,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN02_LDA_FC1_LIN02StatusInfo,E3BaseTypeU16.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN02_LDA_FC1_LIN02HorCurv,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN02_LDA_FC1_LIN02HorDistY,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN02_LDA_FC1_LIN02Type,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN02_LDA_FC1_LIN02HorRelYawAngle,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN02_LDA_FC1_LIN02HorStartX,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN02_LDA_FC1_LIN02Safe,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN09_LDA_FC1_LIN09HorEndXMeasured,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN09_LDA_FC1_LIN09Safe,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN09_LDA_FC1_LIN09HorCurvCh,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN09_LDA_FC1_LIN09HorDistY,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN09_LDA_FC1_LIN09ID,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN09_LDA_FC1_LIN09HorEndX,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN09_LDA_FC1_LIN09HorRelYawAngle,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN09_LDA_FC1_LIN09HorCurv,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN09_LDA_FC1_LIN09Type,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN09_LDA_FC1_LIN09StatusInfo,E3BaseTypeU16.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN09_LDA_FC1_LIN09HorStartX,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN10_LDA_FC1_LIN10HorDistY,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN10_LDA_FC1_LIN10Type,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN10_LDA_FC1_LIN10ID,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN10_LDA_FC1_LIN10StatusInfo,E3BaseTypeU16.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN10_LDA_FC1_LIN10HorCurvCh,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN10_LDA_FC1_LIN10HorCurv,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN10_LDA_FC1_LIN10HorEndX,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN10_LDA_FC1_LIN10HorEndXMeasured,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN10_LDA_FC1_LIN10HorStartX,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN10_LDA_FC1_LIN10HorRelYawAngle,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDA_LIN10_LDA_FC1_LIN10Safe,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LDW_DLC_LDW_DLC,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LDW_Seite_DLCTLC_LDW_Seite_DLCTLC,E3BaseTypeBoolean.Clas,40.0..40.0
+Rte_USSDB_LDW_TLC_LDW_TLC,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LIM_PEA_LIM_PEA_SetSpeed,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_LIM_PEA_LIM_PEA_SystemStateISA,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_LIM_PEA_LIM_PEA_SystemStateLimiter,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_MFL_Tip_Down_MFL_Tip_Down,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_MFL_Tip_Up_MFL_Tip_Up,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_PEA_State_FPM_PEA_State_FPM,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_PTOMM_FlgDrvMdB_PTOMM_FlgDrvMdB,E3BaseTypeBoolean.Clas,40.0..40.0
+Rte_USSDB_Taster_ESC_Off_Taster_ESC_Off,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_USSDM_CalibrationStatus_USSDM_CalibrationStatus,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_USSDM_DetectionMode_USSDM_DetectionMode,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_USSDM_DriverChange_USSDM_DriverChange,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_USSDM_DriverPhoneUsage_USSDM_DriverPhoneUsage,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_USSDM_DriverPhoneUsageQual_USSDM_DriverPhoneUsageQual,E3ExtdTypeU8Fct.QlfrFct,0.0..0.0
+Rte_USSDB_USSDM_DriverPresence_USSDM_DriverPresence,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_USSDM_DurEyesCl_USSDM_DurEyesCl,E3ExtdTypeFloatFct.QlfrFct,0.0..0.0
+Rte_USSDB_USSDM_DurEyesNotOnTfc_USSDM_DurEyesNotOnTfc,E3ExtdTypeFloatFct.QlfrFct,0.0..0.0
+Rte_USSDB_USSDM_EyesClosed_USSDM_EyesClosed,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_USSDM_EyesOnTraffic_USSDM_EyesOnTraffic,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_USSDM_EyesOnTrafficQual_USSDM_EyesOnTrafficQual,E3ExtdTypeU8Fct.QlfrFct,0.0..0.0
+Rte_USSDB_USSDM_EyesOpen_USSDM_EyesOpen,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_USSDM_FakeDetected_USSDM_FakeDetected,E3BaseTypeBoolean.Clas,40.0..40.0
+Rte_USSDB_USSDM_Microsleep_USSDM_Microsleep,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_USSDM_MicrosleepQual_USSDM_MicrosleepQual,E3ExtdTypeU8Fct.QlfrFct,0.0..0.0
+Rte_USSDB_USSDM_ProbScndTsk_USSDM_ProbScndTsk,E3ExtdTypeFloatFct.QlfrFct,0.0..0.0
+Rte_USSDB_USSDM_SpaAttDstrAr_01_USSDM_SpaAttDstrAr_01,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_USSDM_SpaAttDstrAr_02_USSDM_SpaAttDstrAr_02,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_USSDM_SpaAttDstrAr_03_USSDM_SpaAttDstrAr_03,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_USSDM_SpaAttDstrProb_01_USSDM_SpaAttDstrProb_01,E3ExtdTypeU8Fct.QlfrFct,0.0..0.0
+Rte_USSDB_USSDM_SpaAttDstrProb_02_USSDM_SpaAttDstrProb_02,E3ExtdTypeU8Fct.QlfrFct,0.0..0.0
+Rte_USSDB_USSDM_SpaAttDstrProb_03_USSDM_SpaAttDstrProb_03,E3ExtdTypeU8Fct.QlfrFct,0.0..0.0
+Rte_USSDB_USSDM_Status_USSDM_Status,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_USSDM_UnusualHeadPose_USSDM_UnusualHeadPose,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_USSDM_UnusualHeadPoseQual_USSDM_UnusualHeadPoseQual,E3ExtdTypeU8Fct.QlfrFct,0.0..0.0
+Rte_USSDB_USSDM_VisualDistractionLevel_USSDM_VisualDistractionLevel,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_USSDM_VisualDistractionQual_USSDM_VisualDistractionQual,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_VDSO_ALatOfsCmp_VDSO_ALatOfsCmp,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_VDSO_ALgtOfsCmp_VDSO_ALgtOfsCmp,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_VDSO_AgStgWhlOfsCmp_VDSO_AgStgWhlOfsCmp,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_VDSO_StENDA_VDSO_StENDA,E3BaseTypeBoolean.Clas,40.0..40.0
+Rte_USSDB_VDSO_Vx3d_VDSO_Vx3d,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_VDSO_Vx3dGNSS_VDSO_Vx3dGNSS,E3BaseTypeFloat.Clas,40.0..40.0
+Rte_USSDB_WH_Fahrstufe_WH_Fahrstufe,E3BaseTypeU8.Clas,40.0..40.0
+Rte_USSDB_DIAG_BoundaryCdn_Diag_BoundaryCdn,IDT_DiagBoundCondition.FrSyncPres,0.0..0.0
+Rte_USSDB_Group_VMM_LatGuideFb_Group_VMM_LatGuideFb,IDT_Group_VMM_LatGuideFb.VMM_StgWhlVib_StAvl.Clas,40.0..40.0
+Rte_USSDB_Group_VMM_PedInfo_Group_VMM_PedInfo,IDT_Group_VMM_PedInfo.VMM_DrvPed_StReqDmnt.Clas,40.0..40.0
+Rte_USSDB_Group_VMM_LatCtlReq_Group_VMM_LatCtlReq,IDT_Group_VMM_LatCtlReq.VMM_LatGuide_TiIntpLatCtl.Clas,40.0..40.0
+Rte_USSDB_Group_API_Info_Group_API_Info,IDT_Group_API_Info.API_StDrvPedCnfd.Clas,40.0..40.0
+Rte_USSDB_STM_StEcu_STM_StEcu,IDT_EcuSMData.STM_CurSt_Clas,40.0..40.0
+Rte_USSDB_SSM_StSwCptCurCtn_SSM_StSwCptCurCtn,IDT_STM_StSwCptCurCtn.Reserved_5_StSwCptCur,0.0..0.0
+Rte_USSDB_RP_USSDB_RoadAttributesEvents_egoInformationComplex,RoadAttributes_AT_EgoInformationComplex.messageCounter,0.0..0.0
+Rte_USSDB_RP_USSDB_RoadAttributesEvents_previewInformation,RoadAttributes_AT_PreviewInformation.messageCounter,0.0..0.0
+Rte_USSDB_RP_USSDB_RoadAttributesEvents_egoInformation,RoadAttributes_AT_EgoInformation.messageCounter,0.0..0.0
+Rte_USSDB_RP_USSDB_RoadAttributesEvents_systemInformation,RoadAttributes_AT_SystemInformation.messageCounter,0.0..0.0
+Rte_USSDB_RP_USSDB_RoadAttributesExtendedEvents_slopes,RoadAttributesExtended_AT_AttributeSlope.messageCounter,0.0..0.0
+Rte_USSDB_RP_USSDB_RoadAttributesExtendedEvents_extendedPreviewInformation,RoadAttributesExtended_AT_ExtendedPreviewInformation.messageCounter,0.0..0.0
+Rte_USSDB_RP_USSDB_RoadAttributesExtendedEvents_trafficSignsPreview,RoadAttributesExtended_AT_TrafficSignsPreview.messageCounter,0.0..0.0
+Rte_USSDB_RP_USSDB_RoadAttributesExtendedEvents_curvatures,RoadAttributesExtended_AT_AttributeCurvature.messageCounter,0.0..0.0
+Rte_USSDB_RP_CodSwt_CodSwt_Critical,IDT_CodSwt.TiltAgDispPres,0.0..0.0
+Rte_USSDB_RP_CodSwt_CodSwt_Critical_Version,IDT_CodSwt_Version.CodSwt_Major_Vers,0.0..0.0
+Rte_USSDB_USS_DALatHODInterpretation_en_USS_DALatHODInterpretation_en,E3BaseTypeU8.Clas,0.0..255.0
+Rte_USSDB_USS_DALatHODNoContactTime_s_USS_DALatHODNoContactTime_s,E3ExtdTypeU16Fct.QlfrFct,0.0..0.0
+Rte_USSDB_USS_DALatHandsOffTime_s_USS_DALatHandsOffTime_s,E3ExtdTypeU16Fct.QlfrFct,0.0..0.0
+Rte_USSDB_USS_DALatInactiveTime_s_USS_DALatInactiveTime_s,E3ExtdTypeU16Fct.QlfrFct,0.0..0.0
+Rte_USSDB_USS_DA_CtStgDet_USS_DA_CtStgDet,E3BaseTypeU8.Clas,0.0..255.0
+Rte_USSDB_USS_DS_DriverType_USS_DS_DriverType,E3BaseTypeU8.Clas,0.0..255.0
+Rte_USSDB_USS_DS_ComfortLevel_USS_DS_ComfortLevel,E3BaseTypeU8.Clas,0.0..255.0
+Rte_USSDB_USS_DS_DriverType_longterm_USS_DS_DriverType_longterm,E3BaseTypeU8.Clas,0.0..255.0
+Rte_USSDB_USS_DS_EfficiencyLevel_USS_DS_EfficiencyLevel,E3BaseTypeU8.Clas,0.0..255.0
+Rte_USSDB_USS_ImpairLevel_USS_ImpairLevel,E3BaseTypeU8.Clas,0.0..255.0
+Rte_USSDB_USS_ImpairLevelConf_USS_ImpairLevelConf,E3BaseTypeU8.Clas,0.0..255.0
+Rte_USSDB_USS_StatusDriverLateralActivity_USS_StatusDriverLateralActivity,E3BaseTypeU8.Clas,0.0..255.0
+Rte_USSDB_USS_StatusDriverType_USS_StatusDriverType,E3BaseTypeU8.Clas,0.0..255.0
+Rte_ModeSwitch_1,struct tag_Rte_ModeSwitch_1.Entries,0.0..0.0
+Rte_ModeSwitch_2,struct tag_Rte_ModeSwitch_2.Entries,0.0..0.0
+Rte_ModeSwitch_3,struct tag_Rte_ModeSwitch_3.Entries,0.0..0.0
+Rte_ModeSwitch_4,struct tag_Rte_ModeSwitch_4.Entries,0.0..0.0
+Rte_ModeSwitch_5,struct tag_Rte_ModeSwitch_5.Entries,0.0..0.0
+Rte_ModeSwitch_6,struct tag_Rte_ModeSwitch_6.Entries,0.0..0.0
+Rte_ModeSwitch_7,struct tag_Rte_ModeSwitch_7.Entries,0.0..0.0
+Rte_ModeSwitch_8,struct tag_Rte_ModeSwitch_8.Entries,0.0..0.0
+Rte_ModeSwitch_9,struct tag_Rte_ModeSwitch_9.Entries,0.0..0.0
+Rte_ModeSwitch_10,struct tag_Rte_ModeSwitch_10.Entries,0.0..0.0
+Rte_ModeSwitch_11,struct tag_Rte_ModeSwitch_11.Entries,0.0..0.0
+Rte_ModeSwitch_12,struct tag_Rte_ModeSwitch_12.Entries,0.0..0.0
+Rte_ModeSwitch_13,struct tag_Rte_ModeSwitch_13.Entries,0.0..0.0
+Rte_ModeSwitch_14,struct tag_Rte_ModeSwitch_14.Entries,0.0..0.0
+Rte_ModeSwitch_15,struct tag_Rte_ModeSwitch_15.Entries,0.0..0.0
+Rte_ModeSwitch_16,struct tag_Rte_ModeSwitch_16.Entries,0.0..0.0
+Rte_ModeSwitch_17,struct tag_Rte_ModeSwitch_17.Entries,0.0..0.0
+Rte_ModeSwitch_18,struct tag_Rte_ModeSwitch_18.Entries,0.0..0.0
+Rte_ModeSwitch_19,struct tag_Rte_ModeSwitch_19.Entries,0.0..0.0
+Rte_ModeSwitch_20,struct tag_Rte_ModeSwitch_20.Entries,0.0..0.0
+Rte_ModeSwitch_21,struct tag_Rte_ModeSwitch_21.Entries,0.0..0.0
+Rte_ModeSwitch_22,struct tag_Rte_ModeSwitch_22.Entries,0.0..0.0
+Rte_ModeSwitch_23,struct tag_Rte_ModeSwitch_23.Entries,0.0..0.0
+Rte_ModeSwitch_24,struct tag_Rte_ModeSwitch_24.Entries,0.0..0.0
+Rte_ModeSwitch_25,struct tag_Rte_ModeSwitch_25.Entries,0.0..0.0
+Rte_ModeSwitch_26,struct tag_Rte_ModeSwitch_26.Entries,0.0..0.0
+Rte_ModeSwitch_27,struct tag_Rte_ModeSwitch_27.Entries,0.0..0.0
+Rte_USSDB_SSM_USSDB_MdSwCptCur_ModeGroup,Rte_ModeType_MDG_SSM_AvlMd,0.0..0.0
+Rte_USSDB_USSDB_ObjectDetection_25089_ClientMode_ModeGroup,Rte_ModeType_BswMSdClientServiceStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_ObjectDetection_25089_ClientCurMode_ModeGroup,Rte_ModeType_BswMSdClientServiceCurrentStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_objects_EventGroup_25089_32770_Mode_ModeGroup,Rte_ModeType_BswMSdConsumedEventGroupStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_objects_EventGroup_25089_32770_ClientCurMode_ModeGroup,Rte_ModeType_BswMSdConsumedEventGroupCurrentStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_RoadAttributes_24899_ClientMode_ModeGroup,Rte_ModeType_BswMSdClientServiceStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_RoadAttributes_24899_ClientCurMode_ModeGroup,Rte_ModeType_BswMSdClientServiceCurrentStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_systemInformation_EventGroup_24899_40966_Mode_ModeGroup,Rte_ModeType_BswMSdConsumedEventGroupStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_systemInformation_EventGroup_24899_40966_ClientCurMode_ModeGroup,Rte_ModeType_BswMSdConsumedEventGroupCurrentStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_egoInformation_EventGroup_24899_40970_Mode_ModeGroup,Rte_ModeType_BswMSdConsumedEventGroupStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_egoInformation_EventGroup_24899_40970_ClientCurMode_ModeGroup,Rte_ModeType_BswMSdConsumedEventGroupCurrentStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_egoInformationComplex_EventGroup_24899_40974_Mode_ModeGroup,Rte_ModeType_BswMSdConsumedEventGroupStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_egoInformationComplex_EventGroup_24899_40974_ClientCurMode_ModeGroup,Rte_ModeType_BswMSdConsumedEventGroupCurrentStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_previewInformation_EventGroup_24899_40978_Mode_ModeGroup,Rte_ModeType_BswMSdConsumedEventGroupStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_previewInformation_EventGroup_24899_40978_ClientCurMode_ModeGroup,Rte_ModeType_BswMSdConsumedEventGroupCurrentStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_RoadAttributesExtended_24900_ClientMode_ModeGroup,Rte_ModeType_BswMSdClientServiceStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_RoadAttributesExtended_24900_ClientCurMode_ModeGroup,Rte_ModeType_BswMSdClientServiceCurrentStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_curvatures_EventGroup_24900_40966_Mode_ModeGroup,Rte_ModeType_BswMSdConsumedEventGroupStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_curvatures_EventGroup_24900_40966_ClientCurMode_ModeGroup,Rte_ModeType_BswMSdConsumedEventGroupCurrentStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_extendedPreviewInformation_EventGroup_24900_40970_Mode_ModeGroup,Rte_ModeType_BswMSdConsumedEventGroupStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_extendedPreviewInformation_EventGroup_24900_40970_ClientCurMode_ModeGroup,Rte_ModeType_BswMSdConsumedEventGroupCurrentStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_slopes_EventGroup_24900_40978_Mode_ModeGroup,Rte_ModeType_BswMSdConsumedEventGroupStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_slopes_EventGroup_24900_40978_ClientCurMode_ModeGroup,Rte_ModeType_BswMSdConsumedEventGroupCurrentStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_trafficSignsPreview_EventGroup_24900_40982_Mode_ModeGroup,Rte_ModeType_BswMSdConsumedEventGroupStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_trafficSignsPreview_EventGroup_24900_40982_ClientCurMode_ModeGroup,Rte_ModeType_BswMSdConsumedEventGroupCurrentStateModeGroup,0.0..0.0
+Rte_USSDB_USSDB_StPrmPlaus_SWC_s_StPrmPlaus,boolean,0.0..1.0
+Rte_InitValues_Irv_USSDB_IRV_DataOut_USSDB_DRDIdxCmft,const E3BaseTypeS32.Clas,40.0..40.0
+Rte_InitValues_Irv_USSDB_IRV_DataOut_USSDB_DRDIdxDyn,const E3BaseTypeS32.Clas,40.0..40.0
+Rte_InitValues_Irv_USSDB_IRV_DataOut_USSDB_DRDIdxEff,const E3BaseTypeS32.Clas,40.0..40.0
+Rte_InitValues_Irv_USSDB_IRV_DataOut_USSDB_DRDLatHODTi,const E3BaseTypeU16.Clas,40.0..40.0
+Rte_InitValues_Irv_USSDB_IRV_DataOut_USSDB_DRDLatNotAcvTi,const E3BaseTypeU16.Clas,40.0..40.0
+Rte_InitValues_USSDB_ACA_Obj_01_axAbs_v_ACA_Obj_01_axAbs_v,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_ACA_Status_Laengs_ACA_Status_Laengs,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_ACC_LgtCtl_StAcv_ACC_LgtCtl_StAcv,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_ACA_Obj_01_dx_v_ACA_Obj_01_dx_v,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_ACA_Status_Quer_ACA_Status_Quer,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_ACA_Obj_01_dy_v_ACA_Obj_01_dy_v,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_ACA_StgStiCtl_AgOffStgWhlDmd_ACA_StgStiCtl_AgOffStgWhlDmd,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_ACA_Obj_01_vx_v_ACA_Obj_01_vx_v,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_EPS_StDrvAcv_EPS_StDrvAcv,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_DBR_IdcDrvBrk_DBR_IdcDrvBrk,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_DBR_IdcDrvBrkQlfr_DBR_IdcDrvBrkQlfr,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_DPM_StTarDrvPosn_DPM_StTarDrvPosn,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_EPS_RackPosnSpd_EPS_RackPosnSpd,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_EPS_StRackPosn_EPS_StRackPosn,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_EPS_DynLimQFK_EPS_DynLimQFK,const E3BaseTypeBoolean.Clas,40.0..40.0
+Rte_InitValues_USSDB_ACA_relevanter_Fehler_ACA_relevanter_Fehler,const E3BaseTypeBoolean.Clas,40.0..40.0
+Rte_InitValues_USSDB_DrvDrg_IdxRgnLvl_DrvDrg_IdxRgnLvl,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_EPS_RackPosn_EPS_RackPosn,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_EPS_CtlValQFK_EPS_CtlValQFK,const E3BaseTypeS8.Clas,40.0..40.0
+Rte_InitValues_USSDB_EPS_StStgTq_EPS_StStgTq,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_EPS_StgTq_EPS_StgTq,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_EPS_StghtFwdCor_EPS_StghtFwdCor,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_FPM_Set_ACC_DistanceControl_FPM_Set_ACC_DistanceControl,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_FPM_Set_PreSel_LIM_GRA_ACC_ACA_FPM_Set_PreSel_LIM_GRA_ACC_ACA,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_KLR_Fehler_KLR_Fehler,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_KLR_Touchauswertung_KLR_Touchauswertung,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_KST_KL_15_KST_KL_15,const E3BaseTypeBoolean.Clas,40.0..40.0
+Rte_InitValues_USSDB_KST_Kl_S_KST_Kl_S,const E3BaseTypeBoolean.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_Header_LDA_FC1_Status,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN00_LDA_FC1_LIN00HorEndX,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN00_LDA_FC1_LIN00Safe,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN00_LDA_FC1_LIN00HorCurvCh,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN00_LDA_FC1_LIN00HorCurv,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN00_LDA_FC1_LIN00Type,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN00_LDA_FC1_LIN00HorRelYawAngle,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN00_LDA_FC1_LIN00ID,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN00_LDA_FC1_LIN00HorDistY,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN00_LDA_FC1_LIN00CenterPathConf,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN00_LDA_FC1_LIN00StatusInfo,const E3BaseTypeU16.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN00_LDA_FC1_LIN00HorStartX,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN01_LDA_FC1_LIN01HorCurv,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN01_LDA_FC1_LIN01HorEndXMeasured,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN01_LDA_FC1_LIN01HorCurvCh,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN01_LDA_FC1_LIN01HorGapLength,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN01_LDA_FC1_LIN01HorWidth,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN01_LDA_FC1_LIN01HorStartX,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN01_LDA_FC1_LIN01HorEndX,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN01_LDA_FC1_LIN01HorDashLength,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN01_LDA_FC1_LIN01Color,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN01_LDA_FC1_LIN01Safe,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN01_LDA_FC1_LIN01HorDistY,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN01_LDA_FC1_LIN01ID,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN01_LDA_FC1_LIN01Type,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN01_LDA_FC1_LIN01StatusInfo,const E3BaseTypeU16.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN01_LDA_FC1_LIN01HorRelYawAngle,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN02_LDA_FC1_LIN02HorDashLength,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN02_LDA_FC1_LIN02HorCurvCh,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN02_LDA_FC1_LIN02HorEndX,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN02_LDA_FC1_LIN02Color,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN02_LDA_FC1_LIN02HorGapLength,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN02_LDA_FC1_LIN02ID,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN02_LDA_FC1_LIN02HorWidth,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN02_LDA_FC1_LIN02HorEndXMeasured,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN02_LDA_FC1_LIN02StatusInfo,const E3BaseTypeU16.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN02_LDA_FC1_LIN02HorCurv,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN02_LDA_FC1_LIN02HorDistY,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN02_LDA_FC1_LIN02Type,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN02_LDA_FC1_LIN02HorRelYawAngle,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN02_LDA_FC1_LIN02HorStartX,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN02_LDA_FC1_LIN02Safe,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN09_LDA_FC1_LIN09HorEndXMeasured,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN09_LDA_FC1_LIN09Safe,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN09_LDA_FC1_LIN09HorCurvCh,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN09_LDA_FC1_LIN09HorDistY,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN09_LDA_FC1_LIN09ID,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN09_LDA_FC1_LIN09HorEndX,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN09_LDA_FC1_LIN09HorRelYawAngle,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN09_LDA_FC1_LIN09HorCurv,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN09_LDA_FC1_LIN09Type,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN09_LDA_FC1_LIN09StatusInfo,const E3BaseTypeU16.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN09_LDA_FC1_LIN09HorStartX,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN10_LDA_FC1_LIN10HorDistY,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN10_LDA_FC1_LIN10Type,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN10_LDA_FC1_LIN10ID,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN10_LDA_FC1_LIN10StatusInfo,const E3BaseTypeU16.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN10_LDA_FC1_LIN10HorCurvCh,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN10_LDA_FC1_LIN10HorCurv,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN10_LDA_FC1_LIN10HorEndX,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN10_LDA_FC1_LIN10HorEndXMeasured,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN10_LDA_FC1_LIN10HorStartX,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN10_LDA_FC1_LIN10HorRelYawAngle,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDA_LIN10_LDA_FC1_LIN10Safe,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDW_DLC_LDW_DLC,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDW_Seite_DLCTLC_LDW_Seite_DLCTLC,const E3BaseTypeBoolean.Clas,40.0..40.0
+Rte_InitValues_USSDB_LDW_TLC_LDW_TLC,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LIM_PEA_LIM_PEA_SetSpeed,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_LIM_PEA_LIM_PEA_SystemStateISA,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_LIM_PEA_LIM_PEA_SystemStateLimiter,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_MFL_Tip_Down_MFL_Tip_Down,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_MFL_Tip_Up_MFL_Tip_Up,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_PEA_State_FPM_PEA_State_FPM,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_PTOMM_FlgDrvMdB_PTOMM_FlgDrvMdB,const E3BaseTypeBoolean.Clas,40.0..40.0
+Rte_InitValues_USSDB_Taster_ESC_Off_Taster_ESC_Off,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USSDM_CalibrationStatus_USSDM_CalibrationStatus,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USSDM_DetectionMode_USSDM_DetectionMode,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USSDM_DriverChange_USSDM_DriverChange,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USSDM_DriverPhoneUsage_USSDM_DriverPhoneUsage,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USSDM_DriverPhoneUsageQual_USSDM_DriverPhoneUsageQual,const E3ExtdTypeU8Fct.QlfrFct,0.0..0.0
+Rte_InitValues_USSDB_USSDM_DriverPresence_USSDM_DriverPresence,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USSDM_DurEyesCl_USSDM_DurEyesCl,const E3ExtdTypeFloatFct.QlfrFct,0.0..0.0
+Rte_InitValues_USSDB_USSDM_DurEyesNotOnTfc_USSDM_DurEyesNotOnTfc,const E3ExtdTypeFloatFct.QlfrFct,0.0..0.0
+Rte_InitValues_USSDB_USSDM_EyesClosed_USSDM_EyesClosed,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USSDM_EyesOnTraffic_USSDM_EyesOnTraffic,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USSDM_EyesOnTrafficQual_USSDM_EyesOnTrafficQual,const E3ExtdTypeU8Fct.QlfrFct,0.0..0.0
+Rte_InitValues_USSDB_USSDM_EyesOpen_USSDM_EyesOpen,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USSDM_FakeDetected_USSDM_FakeDetected,const E3BaseTypeBoolean.Clas,40.0..40.0
+Rte_InitValues_USSDB_USSDM_Microsleep_USSDM_Microsleep,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USSDM_MicrosleepQual_USSDM_MicrosleepQual,const E3ExtdTypeU8Fct.QlfrFct,0.0..0.0
+Rte_InitValues_USSDB_USSDM_ProbScndTsk_USSDM_ProbScndTsk,const E3ExtdTypeFloatFct.QlfrFct,0.0..0.0
+Rte_InitValues_USSDB_USSDM_SpaAttDstrAr_01_USSDM_SpaAttDstrAr_01,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_USSDM_SpaAttDstrAr_02_USSDM_SpaAttDstrAr_02,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_USSDM_SpaAttDstrAr_03_USSDM_SpaAttDstrAr_03,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_USSDM_SpaAttDstrProb_01_USSDM_SpaAttDstrProb_01,const E3ExtdTypeU8Fct.QlfrFct,0.0..0.0
+Rte_InitValues_USSDB_USSDM_SpaAttDstrProb_02_USSDM_SpaAttDstrProb_02,const E3ExtdTypeU8Fct.QlfrFct,0.0..0.0
+Rte_InitValues_USSDB_USSDM_SpaAttDstrProb_03_USSDM_SpaAttDstrProb_03,const E3ExtdTypeU8Fct.QlfrFct,0.0..0.0
+Rte_InitValues_USSDB_USSDM_Status_USSDM_Status,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USSDM_UnusualHeadPose_USSDM_UnusualHeadPose,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USSDM_UnusualHeadPoseQual_USSDM_UnusualHeadPoseQual,const E3ExtdTypeU8Fct.QlfrFct,0.0..0.0
+Rte_InitValues_USSDB_USSDM_VisualDistractionLevel_USSDM_VisualDistractionLevel,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USSDM_VisualDistractionQual_USSDM_VisualDistractionQual,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_VDSO_ALatOfsCmp_VDSO_ALatOfsCmp,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_VDSO_ALgtOfsCmp_VDSO_ALgtOfsCmp,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_VDSO_AgStgWhlOfsCmp_VDSO_AgStgWhlOfsCmp,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_VDSO_StENDA_VDSO_StENDA,const E3BaseTypeBoolean.Clas,40.0..40.0
+Rte_InitValues_USSDB_VDSO_Vx3d_VDSO_Vx3d,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_VDSO_Vx3dGNSS_VDSO_Vx3dGNSS,const E3BaseTypeFloat.Clas,40.0..40.0
+Rte_InitValues_USSDB_WH_Fahrstufe_WH_Fahrstufe,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_DIAG_BoundaryCdn_Diag_BoundaryCdn,const IDT_DiagBoundCondition.FrSyncPres,0.0..0.0
+Rte_InitValues_USSDB_Group_VMM_LatGuideFb_Group_VMM_LatGuideFb,const IDT_Group_VMM_LatGuideFb.VMM_StgWhlVib_StAvl.Clas,40.0..40.0
+Rte_InitValues_USSDB_Group_VMM_PedInfo_Group_VMM_PedInfo,const IDT_Group_VMM_PedInfo.VMM_DrvPed_StReqDmnt.Clas,40.0..40.0
+Rte_InitValues_USSDB_Group_VMM_LatCtlReq_Group_VMM_LatCtlReq,const IDT_Group_VMM_LatCtlReq.VMM_LatGuide_TiIntpLatCtl.Clas,40.0..40.0
+Rte_InitValues_USSDB_Group_API_Info_Group_API_Info,const IDT_Group_API_Info.API_StDrvPedCnfd.Clas,40.0..40.0
+Rte_InitValues_USSDB_STM_StEcu_STM_StEcu,const IDT_EcuSMData.STM_CurSt_Clas,40.0..40.0
+Rte_InitValues_USSDB_SSM_StSwCptCurCtn_SSM_StSwCptCurCtn,const IDT_STM_StSwCptCurCtn.Reserved_5_StSwCptCur,0.0..0.0
+Rte_InitValues_USSDB_RP_USSDB_RoadAttributesEvents_egoInformationComplex,const RoadAttributes_AT_EgoInformationComplex.messageCounter,0.0..0.0
+Rte_InitValues_USSDB_RP_USSDB_RoadAttributesEvents_previewInformation,const RoadAttributes_AT_PreviewInformation.messageCounter,0.0..0.0
+Rte_InitValues_USSDB_RP_USSDB_RoadAttributesEvents_egoInformation,const RoadAttributes_AT_EgoInformation.messageCounter,0.0..0.0
+Rte_InitValues_USSDB_RP_USSDB_RoadAttributesEvents_systemInformation,const RoadAttributes_AT_SystemInformation.messageCounter,0.0..0.0
+Rte_InitValues_USSDB_RP_USSDB_RoadAttributesExtendedEvents_slopes,const RoadAttributesExtended_AT_AttributeSlope.messageCounter,0.0..0.0
+Rte_InitValues_USSDB_RP_USSDB_RoadAttributesExtendedEvents_extendedPreviewInformation,const RoadAttributesExtended_AT_ExtendedPreviewInformation.messageCounter,0.0..0.0
+Rte_InitValues_USSDB_RP_USSDB_RoadAttributesExtendedEvents_trafficSignsPreview,const RoadAttributesExtended_AT_TrafficSignsPreview.messageCounter,0.0..0.0
+Rte_InitValues_USSDB_RP_USSDB_RoadAttributesExtendedEvents_curvatures,const RoadAttributesExtended_AT_AttributeCurvature.messageCounter,0.0..0.0
+Rte_InitValues_USSDB_RP_CodSwt_CodSwt_Critical,const IDT_CodSwt.TiltAgDispPres,0.0..0.0
+Rte_InitValues_USSDB_RP_CodSwt_CodSwt_Critical_Version,const IDT_CodSwt_Version.CodSwt_Major_Vers,0.0..0.0
+Rte_InitValues_USSDB_USS_DALatHODInterpretation_en_USS_DALatHODInterpretation_en,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USS_DALatHODNoContactTime_s_USS_DALatHODNoContactTime_s,const E3ExtdTypeU16Fct.QlfrFct,0.0..0.0
+Rte_InitValues_USSDB_USS_DALatHandsOffTime_s_USS_DALatHandsOffTime_s,const E3ExtdTypeU16Fct.QlfrFct,0.0..0.0
+Rte_InitValues_USSDB_USS_DALatInactiveTime_s_USS_DALatInactiveTime_s,const E3ExtdTypeU16Fct.QlfrFct,0.0..0.0
+Rte_InitValues_USSDB_USS_DA_CtStgDet_USS_DA_CtStgDet,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USS_DS_DriverType_USS_DS_DriverType,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USS_DS_ComfortLevel_USS_DS_ComfortLevel,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USS_DS_DriverType_longterm_USS_DS_DriverType_longterm,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USS_DS_EfficiencyLevel_USS_DS_EfficiencyLevel,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USS_ImpairLevel_USS_ImpairLevel,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USS_ImpairLevelConf_USS_ImpairLevelConf,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USS_StatusDriverLateralActivity_USS_StatusDriverLateralActivity,const E3BaseTypeU8.Clas,40.0..40.0
+Rte_InitValues_USSDB_USS_StatusDriverType_USS_StatusDriverType,const E3BaseTypeU8.Clas,40.0..40.0
+SUSS3_ReturnValue_a,Std_ReturnType,0.0..0.0
+SUSS4_ReturnValue_a,Std_ReturnType,0.0..0.0
+SUSS5_ReturnValue_a,Std_ReturnType,0.0..0.0
+SUSS6_ReturnValue_a,Std_ReturnType,0.0..0.0
+SUSS7_ReturnValue_a,Std_ReturnType,0.0..0.0
+SUSS8_ReturnValue_a,Std_ReturnType,0.0..0.0
+SUSS9_ReturnValue_a,Std_ReturnType,0.0..0.0
+g_NumOfStepFcn_USS,UInt16,1.0..1.0
+g_NumOfRestartFcn_USS,UInt16,0.0..0.0
+g_NumOfInitFcn_USS,UInt16,0.0..0.0
+g_NumOfTermFcn_USS,UInt16,0.0..0.0
+USSDB_version,const SWC_Version_Data.Vendor_Id[0],0.0..0.0
+USS_INIT_s_StPrmPlaus_measure,boolean,0.0..1.0
+USS_INIT_s_FlgCalRomVld_measure,boolean,0.0..1.0
+USS_INIT_s_FlgCodSwtVld_measure,boolean,0.0..1.0
+USS_INIT_s_FlgDatSetVld_measure,boolean,0.0..1.0
+USS_INIT_s_FlgGlbPrmVld_measure,boolean,0.0..1.0
+USSDB_s_FlgDTCACAErr_measure,boolean,0.0..0.0
+USSDB_s_FlgDTCACCErr_measure,boolean,0.0..0.0
+USSDB_s_FlgDTCAPIErr_measure,boolean,0.0..0.0
+USSDB_s_FlgDTCDrvAcvErr_measure,boolean,0.0..0.0
+USSDB_s_FlgDTCDrvDrgErr_measure,boolean,0.0..0.0
+USSDB_s_FlgDTCDrvStylErr_measure,boolean,0.0..0.0
+USSDB_s_FlgDTCEPSErr_measure,boolean,0.0..0.0
+USSDB_s_FlgDTCErr_measure,boolean,0.0..0.0
+USSDB_s_FlgDTCEscBtnErr_measure,boolean,0.0..0.0
+USSDB_s_FlgDTCEscErr_measure,boolean,0.0..0.0
+USSDB_s_FlgDTCKLRErr_measure,boolean,0.0..0.0
+USSDB_s_FlgDTCLDAErr_measure,boolean,0.0..0.0
+USSDB_s_FlgDTCMFLErr_measure,boolean,0.0..0.0
+USSDB_s_FlgDTCVDSOErr_measure,boolean,0.0..0.0
+USSDB_s_FlgDTCVMMPErr_measure,boolean,0.0..0.0
+USS_GC_s_FlgCpStgWhlPres_measure,boolean,0.0..1.0
+USS_IIF_s_ImpairLevel_ErrFlg_measure,boolean,0.0..1.0
+USS_SIH_s_FlgAlwSetDTC_measure,boolean,0.0..1.0
+USS_SIH_s_FlgDTCRstrt_measure,boolean,0.0..1.0
+USS_SIH_s_ACADxObj01_m_measure,float32,0.0..255.875
+USS_SIH_s_ACAVxObj01_mps_measure,float32,-128.0..127.5
+USS_SIH_s_AgStg_rad_measure,float32,-13.962634086608887..14.059648513793945
+USS_SIH_s_EPSStgTq_Nm_measure,float32,-20.0..20.0
+USS_SIH_s_VDSOLatA_mps2_measure,float32,-163.83999633789062..163.83999633789062
+USS_SIH_s_VDSOLgtA_mps2_measure,float32,-163.83999633789062..163.83999633789062
+USS_SIH_s_VDSOVLgt_mps_measure,float32,-127.80000305175781..127.80000305175781
+USS_SIH_s_VMMBrkPedItDmdNorm_measure,float32,0.0..4.090000152587891
+USS_SIH_s_VMMDrvPedADmdNorm_measure,float32,-6.400000095367432..14.0
+USS_SIH_s_MfwTipDwn_measure,boolean,0.0..1.0
+USS_SIH_s_MfwTipUp_measure,boolean,0.0..1.0
+USS_SIH_s_PTOMMFlgDrvMdB_measure,boolean,0.0..1.0
+USS_COM_p_FacACCDLrg,const float32,0.0..100.0
+USS_COM_p_FacBrkFrqLo,const float32,0.0..100.0
+USS_COM_p_FacKckDwnCom,const float32,0.0..100.0
+USS_COM_p_FacLatAHiCom,const float32,0.0..100.0
+USS_COM_p_FacLatCtlAcvCom,const float32,0.0..100.0
+USS_COM_p_FacLgtCtlAcvCom,const float32,0.0..100.0
+USS_COM_p_FacOnePedalMode,const float32,0.0..100.0
+USS_COM_p_FacStgFrqLo,const float32,0.0..100.0
+USS_DSE_p1_VDSOVLat_LookupTableData,const float32[4][0],0.0..10.0
+USS_DSE_p1_VDSOVLgt_LookupTableData,const float32[4][0],0.0..10.0
+USS_DSE_p_CtDwnStep_s,const float32,0.0..30.0
+USS_DSE_p_FacTlrVUniform,const float32,0.009999999776482582..0.20000000298023224
+USS_DSE_p_LoThDLrg_s,const float32,0.0..10.0
+USS_DSE_p_OfsDly_s,const float32,0.0..1000.0
+USS_DSE_p_ThDSml_s,const float32,0.0..2.0
+USS_DSE_p_ThDrvPedPosnADmd,const float32,0.0..14.0
+USS_DSE_p_ThStgAg_deg,const float32,-819.0..819.3800048828125
+USS_DSE_p_ThVDSOVFast_kmph,const float32,0.0..30.0
+USS_DSE_p_ThVDSOVSlow_kmph,const float32,0.0..190.0
+USS_DSE_p_TiEtaAttrMax,const float32,0.10000000149011612..20.0
+USS_DSE_p_UpprThDLrg_s,const float32,0.0..10.0
+USS_DSE_p_VDSOLatALoPs_1ps,const float32,0.0..10.0
+USS_DSE_p_VDSOLatAMaxVal,const float32,0.0..10.0
+USS_DSE_p_VDSOLgtAMaxVal,const float32,0.0..10.0
+USS_DSE_p_VMMBrkPedDmd,const float32,0.0..3.0
+USS_DSE_p_VSlowTiDistLowerLimit,const float32,0.0..10.0
+USS_DSE_p_VSlowTiDistUpperLimit,const float32,0.0..10.0
+USS_DSF_p_DlyTiLngTrm_s,const float32,0.0..1200.0
+USS_DSF_p_DlyTi_s,const float32,0.0..1000.0
+USS_DSF_p_LngTrmCmaValue_s,const float32,0.0..1000.0
+USS_DS_p_OfsDlyLng_s,const float32,0.0..600.0
+USS_DS_p_OfsDlyMed_s,const float32,0.0..360.0
+USS_DS_p_OfsDlySho_s,const float32,0.0..360.0
+USS_DS_p_OfsDlyXLng_s,const float32,0.0..600.0
+USS_DYN_p_FacAccrPedHi,const float32,0.0..100.0
+USS_DYN_p_FacBrkFrqHi,const float32,0.0..100.0
+USS_DYN_p_FacBrkPHi,const float32,0.0..100.0
+USS_DYN_p_FacDSml,const float32,0.0..100.0
+USS_DYN_p_FacKckDwnDyn,const float32,0.0..100.0
+USS_DYN_p_FacLatArHi,const float32,0.0..100.0
+USS_DYN_p_FacLgtArHi,const float32,0.0..100.0
+USS_DYN_p_FacOnePedalMode,const float32,0.0..100.0
+USS_DYN_p_FacPaTaAcv,const float32,0.0..100.0
+USS_DYN_p_FacStgFrqHi,const float32,0.0..100.0
+USS_DYN_p_FacVFast,const float32,0.0..100.0
+USS_DYN_p_FacVSlow,const float32,0.0..100.0
+USS_EFF_p_FacBrkFrqLo,const float32,0.0..100.0
+USS_EFF_p_FacDSmlEff,const float32,0.0..100.0
+USS_EFF_p_FacDrvPedHi,const float32,0.0..100.0
+USS_EFF_p_FacKckDwnEff,const float32,0.0..100.0
+USS_EFF_p_FacLatCtlAcvEff,const float32,0.0..100.0
+USS_EFF_p_FacLgtAHi,const float32,0.0..100.0
+USS_EFF_p_FacLgtCtlAcvEff,const float32,0.0..100.0
+USS_EFF_p_FacOnePedalMode,const float32,0.0..100.0
+USS_EFF_p_FacPEAAcv,const float32,0.0..100.0
+USS_EFF_p_FacVSlow,const float32,0.0..100.0
+USS_EFF_p_FacVUniform,const float32,0.0..100.0
+USS_GC_p_CtDwnStep_s,const float32,0.0..30.0
+USS_GC_p_EPSStgTqLoPs_1ps,const float32,0.0..100.0
+USS_GC_p_OfsDly_s,const float32,0.0..1000.0
+USS_GC_p_PredVLimDft,const float32,0.0..255.0
+USS_GC_p_ThRoadCrvt_1pm,const float32,0.0..1000.0
+USS_GC_p_ThStgAg_deg,const float32,-819.0..819.3800048828125
+USS_GC_p_ThVEvalEve_kmph,const float32,1.0..60.0
+USS_GC_p_ThVNotSdsl_kmph,const float32,1.0..30.0
+USS_GC_p_VDSOLgtALoPs_1ps,const float32,0.0..100.0
+USS_IIAA_p_AbrAcclConfDly_s,const float32,0.0..600.0
+USS_IIAA_p_AbrBrkConfDly_s,const float32,0.0..600.0
+USS_IIAA_p_AbrStgConfDly_s,const float32,0.0..600.0
+USS_IIEC_p1_SpdDeltaThFactors,const float32[2][0],0.0..10.0
+USS_IIEC_p_SpdDeltaWndwLnght_s,const float32,10.0..600.0
+USS_IIEC_p_TlgtngMaxAllwdTimedDChg_s,const float32,0.0..10.0
+USS_IIEC_p_TlgtngMaxTiDist_s,const float32,0.0..10.0
+USS_IILK_p_ErraticCurveTh,const float32,0.0..10.0
+USS_IILK_p_ErraticStraightTh,const float32,0.0..10.0
+USS_IIRT_p_ActivationRate,const float32,0.0..100.0
+USS_IIRT_p_ImpairmentThreshScore,const float32,0.0..6.0
+USS_IIRT_p_MaxRatioInvalidReactions,const float32,0.0..1.0
+USS_IIRT_p_MaxReactionTime,const float32,0.0..20.0
+USS_IPR_p_DrvBhvrBrkFrqUpperTh,const float32,0.0..100.0
+USS_IPR_p_EveFacLatAHiThd,const float32,0.0..1.0
+USS_IPR_p_StgWhlAgLoPs_1ps,const float32,0.0..100.0
+USS_IPR_p_ThDrvBvrStgAgDcr_deg,const float32,0.0..359.0
+USS_IPR_p_ThDrvBvrStgFrq,const float32,0.0..100.0
+USS_IPR_p_ThTrffcLghtBrkPed,const float32,0.0..4.090000152587891
+USS_IPR_p_ThTrffcLghtDrvPed,const float32,-6.400000095367432..14.0
+USS_IPR_p_ThTrffcLghtVelDiff_kmph,const float32,0.0..100.0
+USS_LAD_p1_FacStgAcvAdp,const float32[8][0],0.0..2.0
+USS_LAD_p1_ThLatStgAcvTq,const float32[5][0],0.0..10.0
+USS_LAD_p1_ThLatStgAcvTqV,const float32[5][0],0.0..10.0
+USS_LAD_p_CntrStgDly_s,const float32,0.0..5.0
+USS_LAD_p_CntrStgHiLngThTq,const float32,0.0..4.0
+USS_LAD_p_CntrStgHiShoThTq,const float32,0.0..4.0
+USS_LAD_p_CntrStgHiTqDly_s,const float32,0.0..5.0
+USS_LAD_p_CntrStgLoLngThTq,const float32,0.0..4.0
+USS_LAD_p_CntrStgLoShoThTq,const float32,0.0..4.0
+USS_LAD_p_CntrStgLoTqDly_s,const float32,0.0..5.0
+USS_LAD_p_CntrStgThSdsl_kmph,const float32,0.0..20.0
+USS_LAD_p_EPSStgTqVFreCut,const float32,0.0..1000.0
+USS_LAD_p_HiThEPSTq,const float32,0.009999999776482582..4.0
+USS_LAD_p_HiThEPSTqCpWhl,const float32,0.009999999776482582..4.0
+USS_LAD_p_HiThEPSTqV,const float32,0.009999999776482582..20.0
+USS_LAD_p_LoThEPSTq,const float32,0.009999999776482582..4.0
+USS_LAD_p_LoThEPSTqCpWhl,const float32,0.009999999776482582..4.0
+USS_LAD_p_LoThEPSTqV,const float32,0.009999999776482582..20.0
+USS_LAD_px_VThStgAcv,const float32[8][0],0.0..200.0
+USS_PRP_p1_EPSCtlValQFKDvtFilAbsBrkPnt,const float32[2][0],0.0..100.0
+USS_PRP_p1_EPSCtlValQFKDvtFilAbsTblDat,const float32[2][0],0.0..1.0
+USS_PRP_p1_EPSCtlValQFKFilAbsBrkPnt,const float32[2][0],0.0..100.0
+USS_PRP_p1_EPSCtlValQFKFilAbsTblDat,const float32[2][0],0.0..1.0
+USS_PRP_p_AsiSysLatActFacNegGrd,const float32,-50.0..50.0
+USS_PRP_p_AsiSysLatActFacPosGrd,const float32,-50.0..50.0
+USS_PRP_p_EPSCtlValQFKFreCut,const float32,0.0..1000.0
+USS_SIH_p_KLRTouchauswertungIntTi,const float32,0.0..1200.0
+USS_SOH_p_StrtTi_DA_s,const float32,0.0..5.0
+USS_SOH_p_StrtTi_DS_s,const float32,0.0..5.0
+USS_SOH_p_StrtTi_ID_s,const float32,0.0..5.0
+USS_p_FacRadDist,const float32,0.0010000000474974513..255.0
+USS_p_FacTiCol,const float32,0.0010000000474974513..255.0
+USS_LAD_p_FlgEnaDirChkCtStg,const boolean,0.0..1.0
+USS_SIH_p_FlgAcvSigMon,const boolean,0.0..1.0
+USS_SIH_p_FlgAcvSigMonSrv,const boolean,0.0..1.0
+USS_SIH_p_FlgAcvSubVal,const boolean,0.0..1.0
+USS_SIH_p_FlgClmp15Repl,const boolean,0.0..1.0
+USS_p_FlgOvrdACARepl,const boolean,0.0..1.0
+USS_p_FlgStiDestSt,const boolean,0.0..1.0
+USS_IPR_s_AcclOvtkReq_measure,boolean,0.0..1.0
+USS_IPR_s_LeadVehBrk_measure,boolean,0.0..1.0
+USS_IPR_s_SddnAccl_measure,boolean,0.0..1.0
+USS_IPR_s_SddnBrkSig_measure,boolean,0.0..1.0
+USS_IPR_s_SddnStg_measure,boolean,0.0..1.0
+USS_IPR_s_StartTrgGreenTrffcLght_measure,boolean,0.0..1.0
+USS_IPR_s_StartTrgRedTrffcLght_measure,boolean,0.0..1.0
+USS_IPR_s_StartTrgSdnLeadVeh_measure,boolean,0.0..1.0
+USS_IPR_s_StopTrgGreenTrffcLght_measure,boolean,0.0..1.0
+USS_IPR_s_StopTrgRedTrffcLght_measure,boolean,0.0..1.0
+USS_IPR_s_StopTrgSdnLeadVeh_measure,boolean,0.0..1.0
+USS_IPR_s_VehStopSig_measure,boolean,0.0..1.0
+USS_IPR_s_VehStrtSig_measure,boolean,0.0..1.0
+USS_DSE_s_EveFactorLatAHi_measure,float32,0.0..1.0
+USS_GC_s_AgStg_deg_measure,float32,-819.0..819.3800048828125
+USS_GC_s_LeadVehTiDist_s_measure,float32,0.0..60.0
+USS_GC_s_MaxSignVLim_kmph_measure,float32,0.0..255.0
+USS_GC_s_VDSOVLgt_kmph_measure,float32,-460.1000061035156..460.1000061035156
+USS_IIAA_s_IdcCnfd_measure,float32,0.0..100.0
+USS_IIEC_s_IndicatorConf_measure,float32,0.0..100.0
+USS_IILK_s_IndicatorConf_measure,float32,0.0..100.0
+USS_IIRT_s_IndicatorConf_measure,float32,0.0..100.0
+USS_IIVE_s_IdcCnfd_measure,float32,0.0..100.0
+USS_IIAA_s_Idc_measure,boolean,0.0..1.0
+USS_IIEC_s_Indicator_measure,boolean,0.0..1.0
+USS_IILK_s_Indicator_measure,boolean,0.0..1.0
+USS_IIRT_s_Indicator_measure,boolean,0.0..1.0
+USS_IIVE_s_Idc_measure,boolean,0.0..1.0
+USS_GC_s_AnimalDet_measure,boolean,0.0..1.0
+USS_GC_s_FlgHighRoadCrvt_measure,boolean,0.0..1.0
+USS_GC_s_FlgLeadVehAvl_measure,boolean,0.0..1.0
+USS_GC_s_ObstDet_measure,boolean,0.0..1.0
+USS_GC_s_VEvalEve_measure,boolean,0.0..1.0
+USS_GC_s_ACAVxObj01_kmph_measure,float32,-460.79998779296875..459.0
+USS_GC_s_EPSStgTqFil_Nm_measure,float32,-20.0..20.950000762939453
+USS_GC_s_VDSOLgtAFil_mps2_measure,float32,-163.83999633789062..163.83999633789062
+USS_GC_s_FlgElDrvSys_measure,boolean,0.0..1.0
+USS_GC_s_FlgHybDrvSys_measure,boolean,0.0..1.0
+USS_GC_s_VNotSdsl_measure,boolean,0.0..1.0
+USS_EFF_s_IdxEff_measure,float32,-1000.0..50000.0
+USS_DSE_s_EveFactorLgtAHi_measure,float32,0.0..1.0
+USS_DYN_s_IdxDyn_measure,float32,-1000.0..50000.0
+USS_DSE_s_EveBrkPHi_measure,boolean,0.0..0.0
+USS_DSE_s_EveCtctStgWhl_measure,boolean,0.0..0.0
+USS_DSE_s_EveDrvPedHi_measure,boolean,0.0..0.0
+USS_DSE_s_EveGearShiftDyn_measure,boolean,0.0..0.0
+USS_DSE_s_EveGripStgWhl_measure,boolean,0.0..0.0
+USS_DSE_s_EveKckDwn_measure,boolean,0.0..0.0
+USS_DSE_s_EveLatCtlAcv_measure,boolean,0.0..0.0
+USS_DSE_s_EveOnePedalMode_measure,boolean,0.0..0.0
+USS_DSE_s_EvePEAEff_measure,boolean,0.0..0.0
+USS_DSE_s_EvePaTaAcv_measure,boolean,0.0..0.0
+USS_DSE_s_EveRgn_measure,boolean,0.0..0.0
+USS_DSE_s_EveVUniform_measure,boolean,0.0..0.0
+USS_COM_s_IdxCom_measure,float32,-1000.0..50000.0
+USS_PRP_s_AsiSysLatActFac_measure,float32,0.0..1.0
+IF_SUSS60_Out1_kb@"USSDB.c",ObjectDetection_AT_FunctionStatus,0.0..255.0
+X_SUSS46_Unit_Delay@"USSDB.c",boolean,0.0..1.0
+X_SUSS63_Trigger_TriggerIn@"USSDB.c",boolean,0.0..1.0
+X_SUSS64_Trigger_TriggerIn@"USSDB.c",boolean,0.0..1.0
+X_SUSS65_Trigger_TriggerIn@"USSDB.c",boolean,0.0..1.0
+X_SUSS68_Trigger_TriggerIn@"USSDB.c",boolean,0.0..1.0
+X_SUSS69_Trigger_TriggerIn@"USSDB.c",boolean,0.0..1.0
+X_SUSS70_Trigger_TriggerIn@"USSDB.c",boolean,0.0..1.0
+X_SUSS71_Trigger_TriggerIn@"USSDB.c",boolean,0.0..1.0
+X_SUSS73_Trigger_TriggerIn@"USSDB.c",boolean,0.0..1.0
+X_SUSS74_Trigger_TriggerIn@"USSDB.c",boolean,0.0..1.0
+X_SUSS75_Trigger_TriggerIn@"USSDB.c",boolean,0.0..1.0
+X_SUSS76_Trigger_TriggerIn@"USSDB.c",boolean,0.0..1.0
+X_SUSS77_Trigger_TriggerIn@"USSDB.c",boolean,0.0..1.0
+X_SUSS80_Trigger_TriggerIn@"USSDB.c",boolean,0.0..1.0
+X_SUSS82_Trigger_TriggerIn@"USSDB.c",boolean,0.0..1.0
+X_SUSS83_Trigger_TriggerIn@"USSDB.c",boolean,0.0..1.0
+SUSS_ID_PRP89_Product1@"USS_ID_PRP.c",float32,0.0..0.0
+SUSS_ID_PRP89_Product2@"USS_ID_PRP.c",float32,0.0..0.0
+X_SUSS_ID_PRP101_UnitDelay@"USS_ID_PRP.c",float32,0.0..0.0
+X_SUSS_ID_PRP76_Delay@"USS_ID_PRP.c",float32,0.0..0.0
+X_SUSS_ID_PRP88_UnitDelay@"USS_ID_PRP.c",float32,0.0..0.0
+X_SUSS_ID_PRP88_UnitDelay1@"USS_ID_PRP.c",float32,0.0..0.0
+X_SUSS_ID_PRP104_UnitDelay@"USS_ID_PRP.c",boolean,0.0..0.0
+X_SUSS_ID_PRP109_UnitDelay@"USS_ID_PRP.c",boolean,0.0..0.0
+X_SUSS_ID_PRP110_UnitDelay@"USS_ID_PRP.c",boolean,0.0..0.0
+X_SUSS_ID_PRP111_UnitDelay@"USS_ID_PRP.c",boolean,0.0..0.0
+CUSS_ID_II11_TimerValue_s@"USS_ID_II.c",float32,0.0..0.0
+CUSS_ID_II14_TimerValue_s@"USS_ID_II.c",float32,0.0..0.0
+CUSS_ID_II8_TimerValue_s@"USS_ID_II.c",float32,0.0..0.0
+SUSS_ID_II137_Product@"USS_ID_II.c",float32,0.0..0.0
+SUSS_ID_II298_Switch@"USS_ID_II.c",float32,0.0..0.0
+SUSS_ID_II311_Switch@"USS_ID_II.c",float32,0.0..0.0
+SUSS_ID_II324_Switch@"USS_ID_II.c",float32,0.0..0.0
+X_SUSS_ID_II186_Delay@"USS_ID_II.c",float32,0.0..0.0
+X_SUSS_ID_II214_Delay@"USS_ID_II.c",float32,0.0..0.0
+X_SUSS_ID_II217_UnitDelay@"USS_ID_II.c",float32[350][0],0.0..0.0
+X_SUSS_ID_II223_Delay@"USS_ID_II.c",float32,0.0..0.0
+X_SUSS_ID_II232_UnitDelay@"USS_ID_II.c",float32[5][0],0.0..0.0
+X_SUSS_ID_II268_UnitDelay@"USS_ID_II.c",float32,0.0..0.0
+CUSS_ID_II11_NewValidMeasurement_b@"USS_ID_II.c",boolean,0.0..0.0
+CUSS_ID_II14_NewValidMeasurement_b@"USS_ID_II.c",boolean,0.0..0.0
+CUSS_ID_II8_NewValidMeasurement_b@"USS_ID_II.c",boolean,0.0..0.0
+SUSS_ID_II130_Relational_Operator@"USS_ID_II.c",boolean,0.0..0.0
+SUSS_ID_II294_RSWE@"USS_ID_II.c",boolean,0.0..0.0
+SUSS_ID_II307_RSWE@"USS_ID_II.c",boolean,0.0..0.0
+SUSS_ID_II320_RSWE@"USS_ID_II.c",boolean,0.0..0.0
+X_SUSS_ID_II28_USS_IIAA_s_PrevAbrpBrkIdcState@"USS_ID_II.c",boolean,0.0..0.0
+X_SUSS_ID_II56_USS_IIAA_s_PrevAbrpBrkIdcState@"USS_ID_II.c",boolean,0.0..0.0
+X_SUSS_ID_II84_USS_IIAA_s_PrevAbrpBrkIdcState@"USS_ID_II.c",boolean,0.0..0.0
+SIBFS_ErrBehavCnterFSM_USS_ID_II@"USS_ID_II.c",struct tag_SIBFS_ErrBehavCnterFSM_USS_ID_II_tp.CUSS_ID_II4_countDown,0.0..0.0
+SIBFS_LaneDepHistFSM_USS_ID_II@"USS_ID_II.c",struct tag_SIBFS_LaneDepHistFSM_USS_ID_II_tp.CUSS_ID_II7_CountUp,0.0..0.0
+SIBFS_Reaction_Time_Measurement__USS_ID_II@"USS_ID_II.c",struct tag_SIBFS_Reaction_Time_Measurement__USS_ID_II_tp.CUSS_ID_II9_Stopped,0.0..0.0
+SIBFS_Reaction_Time_Measurement__USS_ID_II_a@"USS_ID_II.c",struct tag_SIBFS_Reaction_Time_Measurement__USS_ID_II_tp_a.CUSS_ID_II12_Stopped,0.0..0.0
+SIBFS_Reaction_Time_Measurement__USS_ID_II_b@"USS_ID_II.c",struct tag_SIBFS_Reaction_Time_Measurement__USS_ID_II_tp_b.CUSS_ID_II15_Stopped,0.0..0.0
+SUSS_ID_II126_enabledSubsystem_FirstRun@"USS_ID_II.c",boolean,1.0..1.0
+SUSS_ID_II1_ImpairmentDetectionIndicatorsID_II_FirstRun@"USS_ID_II.c",boolean,1.0..1.0
+SUSS_ID_II2_AA_FirstRun@"USS_ID_II.c",boolean,1.0..1.0
+X_SUSS_ID_IF3_Delay_TriggerIn@"USS_ID_IF.c",boolean,0.0..0.0
+SUSS_ID_IF1_ImpairmentDetectionIndicatorsFusionID_IF_FirstRun@"USS_ID_IF.c",boolean,1.0..1.0
+SUSS_DA_HOD1_DriverActivityDA_HOD_FirstRun@"USS_DA_HOD.c",boolean,1.0..1.0
+SUSS_DA_LAD68_Look_Up_Table_map@"USS_DA_LAD.c",const MAP_Tab1DS0I2T3126_USS_DA_LAD.Nx,8.0..8.0
+SUSS_DA_LAD119_Product2@"USS_DA_LAD.c",float32,0.0..0.0
+SUSS_DA_LAD119_Product4@"USS_DA_LAD.c",float32,0.0..0.0
+SUSS_DA_LAD119_Product5@"USS_DA_LAD.c",float32,0.0..0.0
+SUSS_DA_LAD119_Product6@"USS_DA_LAD.c",float32,0.0..0.0
+X_SUSS_DA_LAD110_UnitDelay@"USS_DA_LAD.c",float32,0.0..0.0
+X_SUSS_DA_LAD111_UnitDelay@"USS_DA_LAD.c",float32,0.0..0.0
+X_SUSS_DA_LAD111_UnitDelay1@"USS_DA_LAD.c",float32,0.0..0.0
+X_SUSS_DA_LAD111_UnitDelay2@"USS_DA_LAD.c",float32,0.0..0.0
+SUSS_DA_LAD1_DriverActivityLateralDA_LAD_FirstRun@"USS_DA_LAD.c",boolean,1.0..1.0
+SUSS_DA_PRP18_Product2@"USS_DA_PRP.c",float32,0.0..0.0
+SUSS_DA_PRP18_Product4@"USS_DA_PRP.c",float32,0.0..0.0
+SUSS_DA_PRP18_Product5@"USS_DA_PRP.c",float32,0.0..0.0
+SUSS_DA_PRP18_Product6@"USS_DA_PRP.c",float32,0.0..0.0
+X_SUSS_DA_PRP15_UnitDelay@"USS_DA_PRP.c",float32,0.0..0.0
+X_SUSS_DA_PRP15_UnitDelay1@"USS_DA_PRP.c",float32,0.0..0.0
+X_SUSS_DA_PRP15_UnitDelay2@"USS_DA_PRP.c",float32,0.0..0.0
+X_SUSS_DA_PRP7_UnitDelay@"USS_DA_PRP.c",float32,0.0..0.0
+SUSS_DS_COM50_Product1@"USS_DS_COM.c",float32,0.0..0.0
+SUSS_DS_COM50_factorCalculation_FirstRun@"USS_DS_COM.c",boolean,1.0..1.0
+SUSS_DS_DSE127_Product1@"USS_DS_DSE.c",float32,0.0..0.0
+SUSS_DS_DSE127_Product4@"USS_DS_DSE.c",float32,0.0..0.0
+X_SUSS_DS_DSE122_UnitDelay@"USS_DS_DSE.c",float32,0.0..0.0
+X_SUSS_DS_DSE122_UnitDelay1@"USS_DS_DSE.c",float32,0.0..0.0
+X_SUSS_DS_DSE176_Delay@"USS_DS_DSE.c",float32,0.0..0.0
+X_SUSS_DS_DSE177_UnitDelay@"USS_DS_DSE.c",float32,0.0..0.0
+SUSS_DS_DSE153_ROWD@"USS_DS_DSE.c",boolean,0.0..0.0
+SUSS_DS_DSE154_LogicalOperator@"USS_DS_DSE.c",boolean,0.0..0.0
+SUSS_DS_DSE162_ROWD@"USS_DS_DSE.c",boolean,0.0..0.0
+SUSS_DS_DSE163_LogicalOperator@"USS_DS_DSE.c",boolean,0.0..0.0
+SUSS_DS_DSE101_EventVelocityUniformity_FirstRun@"USS_DS_DSE.c",boolean,1.0..1.0
+SUSS_DS_DYN69_Product1@"USS_DS_DYN.c",float32,0.0..0.0
+SUSS_DS_DYN74_Product1@"USS_DS_DYN.c",float32,0.0..0.0
+SUSS_DS_DYN69_factorCalculation_FirstRun@"USS_DS_DYN.c",boolean,1.0..1.0
+SUSS_DS_DYN74_factorCalculation_FirstRun@"USS_DS_DYN.c",boolean,1.0..1.0
+SUSS_DS_EFF65_Product1@"USS_DS_EFF.c",float32,0.0..0.0
+SUSS_DS_EFF84_Multiply1@"USS_DS_EFF.c",float32,0.0..0.0
+X_SUSS_DS_EFF88_Delay@"USS_DS_EFF.c",float32,0.0..0.0
+X_SUSS_DS_EFF95_Delay@"USS_DS_EFF.c",float32,0.0..0.0
+SUSS_DS_EFF65_factorCalculation_FirstRun@"USS_DS_EFF.c",boolean,1.0..1.0
+X_SUSS_DS_IP37_UnitDelay@"USS_DS_IP.c",boolean,0.0..0.0
+X_SUSS_DS_IP38_UnitDelay@"USS_DS_IP.c",boolean,0.0..0.0
+X_SUSS_DS_IP39_UnitDelay@"USS_DS_IP.c",boolean,0.0..0.0
+X_SUSS_DS_IP40_Delay@"USS_DS_IP.c",float32,1.0..1.0
+tagISV_SUssFrqCtrR1_FrequencyCounterWithCountdown@"USS_GC.c",ISV_SUssFrqCtrR1_tp.X_SUssFrqCtrR1_UnitDelay,0.0..0.0
+tagISV_SUssFrqCtrR1_FrequencyCounterWithCountdown_a@"USS_GC.c",ISV_SUssFrqCtrR1_tp.X_SUssFrqCtrR1_UnitDelay,0.0..0.0
+SUSS_GC113_Product1@"USS_GC.c",float32,0.0..0.0
+SUSS_GC113_Product4@"USS_GC.c",float32,0.0..0.0
+SUSS_GC34_Product1@"USS_GC.c",float32,0.0..0.0
+SUSS_GC34_Product4@"USS_GC.c",float32,0.0..0.0
+X_SUSS_GC111_UnitDelay@"USS_GC.c",float32,0.0..0.0
+X_SUSS_GC111_UnitDelay1@"USS_GC.c",float32,0.0..0.0
+X_SUSS_GC32_UnitDelay@"USS_GC.c",float32,0.0..0.0
+X_SUSS_GC32_UnitDelay1@"USS_GC.c",float32,0.0..0.0
+SUSS_SIH333_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH333_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH345_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH345_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH357_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH357_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH369_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH369_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH381_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH381_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH393_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH393_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH405_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH405_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH417_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH417_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH429_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH429_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH441_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH441_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH453_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH453_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH465_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH465_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH561_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH561_Relational_Operator1@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH567_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH567_Relational_Operator1@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH582_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH582_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH593_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH593_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH604_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH604_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH615_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH615_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH626_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH626_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH637_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH639_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH640_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH641_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH642_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH643_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH643_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH659_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH659_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH670_ROWD@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH670_RSWE@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH81_ROWD@"USS_SIH.c",boolean,0.0..0.0
+X_SUSS_SIH83_UnitDelay@"USS_SIH.c",boolean,0.0..0.0
+SUSS_SIH561_Subsystem_FirstRun@"USS_SIH.c",boolean,1.0..1.0
+SUSS_SIH567_Subsystem_FirstRun@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH335_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH347_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH359_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH371_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH383_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH395_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH407_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH419_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH431_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH443_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH455_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH467_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH584_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH595_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH606_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH617_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH628_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH645_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH661_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+X_SUSS_SIH672_Delay_TriggerIn@"USS_SIH.c",boolean,1.0..1.0
+SUSS_SOH2_ROWD@"USS_SOH.c",boolean,0.0..0.0
+SUSS_SOH1_SignalOutputHandlerSOH_FirstRun@"USS_SOH.c",boolean,1.0..1.0

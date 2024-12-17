@@ -114,19 +114,34 @@ class LinkVar2Sim:
         logging.info("LinkVar2Sim", "Saved linked variables")
     
 
-if __name__ == "__main__":
-    # include utils folder in sys.path
-    import sys
-    sys.path.append(r"C:\Users\trand\Desktop\Bosch\astree_get_variable_access\utils")
-    from log import Logger
+# include utils folder in sys.path
+import sys
+sys.path.append(r"C:\Users\trand\Desktop\Bosch\astree_get_variable_access\utils")
+from log import Logger
+import click
+import logging
+
+@click.command()
+@click.option('--source_c_path', prompt='Source C path', help='Source C path')
+@click.option('--variable_access_csv_path', prompt='Variable access csv path', help='Variable access csv path')
+@click.option('--output_folder', prompt='Output folder path', help='Output folder path')
+def main(source_c_path, variable_access_csv_path, output_folder):
     logger = Logger()
+    if not source_c_path:
+        logging.error("main", "Source C path is required")
+        return
+    if not variable_access_csv_path:
+        logging.error("main", "Variable access csv path is required")
+        return
+    if not output_folder:
+        logging.error("main", "Output folder path is required")
+        return
     link_var2sim = LinkVar2Sim()
-    link_var2sim.link(r"C:\Users\trand\Desktop\Bosch\astree_get_variable_access\USSDB.c", r"C:\Users\trand\Desktop\Bosch\astree_get_variable_access\variable_access.csv", "./output")
-    for var in link_var2sim.m_linked_data:
-        print(var, link_var2sim.m_linked_data[var])
-        print()
-        
-        
-        
-            
-            
+    link_var2sim.link(source_c_path, variable_access_csv_path, output_folder)
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as e:
+        logging.error("main", str(e))
